@@ -5,7 +5,7 @@ let restaurantData = [
     {name: 'Barrio',
     mode: 'Walkable',
     distance: '0.3',
-    logo: 'Barriologo',
+    logo: 'Barriologo.jpg',
     summary: 'Tacos are their specialty',
     website: 'https://barrio-tacos.com/location/barrio-portsmouth',
     yelp: 'https://www.yelp.com/biz/barrio-portsmouth',
@@ -15,7 +15,7 @@ let restaurantData = [
     {name: 'Rooftop at Envio',
     mode: 'Walkable',
     distance: '0.3',
-    logo: 'Enviologo',
+    logo: 'Enviologo.jpg',
     summary: 'Drinks and Appetizers with a view of the city',
     website: 'https://www.rooftopportsmouth.com/',
     yelp: 'https://www.yelp.com/biz/rooftop-at-the-envio-portsmouth-2?osq=rooftop+at+envio',
@@ -28,7 +28,7 @@ let restaurantData = [
 for (i = 0; i < restaurantData.length; i++) {
 restarantCard = '<div class="card border-secondary text-center"> \
 <h5 class="text-center m-1"><i class="fas fa-walking"></i> '+ restaurantData[i].mode +' - '+ restaurantData[i].distance +' miles</h5> \
-<img class="card-img-top" src="./assets/images/restaurants/'+ restaurantData[i].logo +'.jpg" alt="'+ restaurantData[i].name +' restaurant logo"> \
+<img class="card-img-top" src="./assets/images/restaurants/'+ restaurantData[i].logo +'" alt="'+ restaurantData[i].name +' restaurant logo"> \
     <div class="card-body"> \
         <h5 class="card-title">'+ restaurantData[i].summary +'</h5> \
         <a href="'+ restaurantData[i].website +'" class="btn btn-warning m-1"><i class="fas fa-utensils"></i> '+ restaurantData[i].name +' website</a> \
