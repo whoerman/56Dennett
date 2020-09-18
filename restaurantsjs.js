@@ -1,5 +1,4 @@
-let restaurantCard = '';
-
+//setting the data for all the restaurants
 let restaurantData = [{
         name: 'Barrio',
         mode: 'Walkable',
@@ -45,56 +44,57 @@ let restaurantData = [{
         directions: 'https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Durbar+Square+Restaurant,+Market+Street,+Portsmouth,+NH/@43.0778605,-70.7672364,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c6da6ed89:0x836ad8e345857cf3!2m2!1d-70.757577!2d43.0773378!3e2',
     },
     {
-        name: '',
+        name: 'Ristorante Massimo',
         mode: 'Walkable',
-        distance: '',
-        logo: '',
-        summary: '',
-        website: '',
-        yelp: '',
-        tripadvisor: '',
-        directions: '',
+        distance: '0.8',
+        logo: 'massimologo.jpg',
+        summary: 'Italian',
+        website: 'https://ristorantemassimo.com/',
+        yelp: 'https://www.yelp.com/biz/ristorante-massimo-portsmouth?osq=massimo',
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d659447-Reviews-Ristorante_Massimo-Portsmouth_New_Hampshire.html',
+        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Massimo's+-+Ristorante+Massimo,+Penhallow+Street,+Portsmouth,+NH/@43.0776389,-70.7665442,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c3818b215:0xf0bf1bca27cab65!2m2!1d-70.7561424!2d43.0771685!3e2",
     }, {
-        name: '',
+        name: '5 Thai Bistro',
         mode: 'Walkable',
-        distance: '',
-        logo: '',
-        summary: '',
-        website: '',
-        yelp: '',
-        tripadvisor: '',
-        directions: '',
+        distance: '0.8',
+        logo: '5Thailogo.jpg',
+        summary: 'Thai',
+        website: 'https://www.5thaibistro.com/',
+        yelp: 'https://www.yelp.com/biz/5-thai-bistro-portsmouth-2',
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3958086-Reviews-5_Thai_Bistro-Portsmouth_New_Hampshire.html',
+        directions: 'https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/5+Thai+Bistro,+Pleasant+Street,+Portsmouth,+NH/@43.0776389,-70.7671397,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c8a5bce9f:0x46fc7f31c2b7db62!2m2!1d-70.7574526!2d43.0762255!3e2',
     }, {
-        name: '',
+        name: "Lexie's Joint",
         mode: 'Walkable',
+        distance: '0.8',
+        logo: 'lexieslogo.jpg',
+        summary: 'Burgers',
+        website: 'https://www.peaceloveburgers.com/portsmouth',
+        yelp: 'https://www.yelp.com/biz/lexies-joint-portsmouth',
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1891877-Reviews-Lexie_s_Joint-Portsmouth_New_Hampshire.html',
+        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Lexie's+Joint,+Islington+Street,+Portsmouth,+NH/@43.076848,-70.7688886,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9fe01264e3:0x5627b4dc5201421a!2m2!1d-70.7646676!2d43.0737238!3e2",
+    }, {
+        name: 'Cure',
+        mode: 'Walkable',
+        distance: '0.9',
+        logo: 'curelogo.jpg',
+        summary: 'Amazing selections, from the mushroom forrester to the duck breast',
+        website: 'https://www.curerestaurantportsmouth.com/',
+        yelp: 'https://www.yelp.com/biz/cure-portsmouth',
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d6453722-Reviews-Cure-Portsmouth_New_Hampshire.html',
+        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Cure,+State+Street,+Portsmouth,+NH/@43.0774206,-70.7664432,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c8ad4500b:0xdcb9e05c8b2781af!2m2!1d-70.756068!2d43.076507!3e2",
+    },{
+        name: '',
+        mode: '',
         distance: '',
         logo: '',
-        summary: '',
+        summary: "",
         website: '',
-        yelp: '',
+        yelp: "",
         tripadvisor: '',
-        directions: '',
+        directions: "",
     },
 ];
-
-<div class="card border-secondary text-center">
-<h5 class="text-center m-1"><i class="fas fa-walking"></i> Walkable - 0.8 miles</h5>
-<img class="card-img-top" src="./assets/images/restaurants/massimologo.jpg"
-    alt="restaurante massimo logo">
-<div class="card-body">
-    <h5 class="card-title">Italian</h5>
-    <a href="https://ristorantemassimo.com/" class="btn btn-warning m-1"><i class="fas fa-utensils"></i>
-        Restaurante Massimo website</a>
-    <a href="https://www.tripadvisor.com/Restaurant_Review-g46209-d659447-Reviews-Ristorante_Massimo-Portsmouth_New_Hampshire.html"
-        class="btn btn-success m-1"><i class="fab fa-tripadvisor"></i> Tripadvisor</a>
-    <a href="https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Massimo's+-+Ristorante+Massimo,+Penhallow+Street,+Portsmouth,+NH/@43.0776389,-70.7665442,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c3818b215:0xf0bf1bca27cab65!2m2!1d-70.7561424!2d43.0771685!3e2"
-        class="btn text-white bg-secondary m-1"><i class="fas fa-walking"></i> Walking directions</a>
-</div>
-</div>
-
-
-
-
 
 
 function makeCard() {
