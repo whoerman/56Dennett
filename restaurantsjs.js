@@ -36,7 +36,7 @@ let restaurantData = [{
         name: '',
         mode: 'Walkable',
         distance: '0.7',
-        logo: 'durbarsquarelogo.jpg',
+        logo: 'Durbarsquarelogo.jpg',
         summary: 'Nepali Vegetarian Friendly Vegan Options',
         website: 'http://www.durbarsquareportsmouth.com/',
         yelp: 'https://www.yelp.com/biz/durbar-square-restaurant-portsmouth?osq=durbar+squaare',
