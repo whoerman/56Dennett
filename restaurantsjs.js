@@ -33,10 +33,10 @@ let restaurantData = [{
         directions: 'https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Green+Elephant+Vegetarian+Bistro+%26+Bar,+Portwalk+Place,+Portsmouth,+NH/@43.0789114,-70.7669103,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0bba1d0bf1:0xcc537bb0eead071d!2m2!1d-70.7613527!2d43.0781121!3e2',
     },
     {
-        name: '',
+        name: 'Durbar Square',
         mode: 'Walkable',
         distance: '0.7',
-        logo: 'Durbarsquarelogo.jpg',
+        logo: 'durbarlogo.jpg',
         summary: 'Nepali Vegetarian Friendly Vegan Options',
         website: 'http://www.durbarsquareportsmouth.com/',
         yelp: 'https://www.yelp.com/biz/durbar-square-restaurant-portsmouth?osq=durbar+squaare',
