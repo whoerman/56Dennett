@@ -73,6 +73,16 @@ let restaurantData = [{
         yelp: 'https://www.yelp.com/biz/durbar-square-restaurant-portsmouth?osq=durbar+squaare',
         tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2413812-Reviews-Durbar_Square_Restaurant-Portsmouth_New_Hampshire.html',
         directions: 'https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Durbar+Square+Restaurant,+Market+Street,+Portsmouth,+NH/@43.0778605,-70.7672364,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c6da6ed89:0x836ad8e345857cf3!2m2!1d-70.757577!2d43.0773378!3e2',
+    },{
+        name: 'Surf',
+        mode: 'Walkable',
+        distance: '0.7',
+        logo: 'surflogo.jpg',
+        summary: "Seafood, Sushi",
+        website: 'https://www.surfseafood.com/',
+        yelp: "https://www.yelp.com/biz/surf-restaurant-portsmouth",
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2199055-Reviews-Surf-Portsmouth_New_Hampshire.html',
+        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Surf+Portsmouth,+Bow+Street,+Portsmouth,+NH/@43.0788887,-70.7665173,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0e85e4eee7:0x6e4b5e2552e05131!2m2!1d-70.7561105!2d43.078935!3e2",
     },
     {
         name: 'Ristorante Massimo',
@@ -105,6 +115,16 @@ let restaurantData = [{
         tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1891877-Reviews-Lexie_s_Joint-Portsmouth_New_Hampshire.html',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Lexie's+Joint,+Islington+Street,+Portsmouth,+NH/@43.076848,-70.7688886,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9fe01264e3:0x5627b4dc5201421a!2m2!1d-70.7646676!2d43.0737238!3e2",
     }, {
+        name: "Colby's",
+        mode: 'Walkable',
+        distance: '0.8',
+        logo: 'colbyslogo.jpg',
+        summary: "Breakfast and Lunch",
+        website: 'https://colbysportsmouthnh.com/',
+        yelp: "https://www.yelp.com/biz/colbys-breakfast-and-lunch-portsmouth",
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d616592-Reviews-Colby_s_Breakfast_Lunch-Portsmouth_New_Hampshire.html',
+        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Colby's+Breakfast+%26+Lunch,+Daniel+Street,+Portsmouth,+NH/@43.0781107,-70.7662424,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c32dad8f5:0x6db50774e37741f5!2m2!1d-70.7555388!2d43.0774445!3e2",
+    },{
         name: 'Cure',
         mode: 'Walkable',
         distance: '0.9',
