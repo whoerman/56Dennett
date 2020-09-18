@@ -42,6 +42,26 @@ let restaurantData = [{
         yelp: "https://www.yelp.com/biz/brgr-bar-portsmouth",
         tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d6278438-Reviews-BRGR_Bar-Portsmouth_New_Hampshire.html',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/BRGR+Bar,+Portwalk+Place,+Portsmouth,+NH/@43.0789114,-70.76683,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0bc9ecb8db:0x5e70b41df507e3a2!2m2!1d-70.7611022!2d43.078236!3e2",
+    },{
+        name: 'Dos Amigos',
+        mode: 'Walkable',
+        distance: '0.5',
+        logo: 'dosamigoslogo.jpg',
+        summary: "Burritos",
+        website: 'https://www.dosamigosburritos.com/',
+        yelp: "https://www.yelp.com/biz/dos-amigos-burritos-portsmouth",
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d835641-Reviews-Dos_Amigos_Burritos-Portsmouth_New_Hampshire.html',
+        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Dos+Amigos+Burritos+-+Portsmouth,+Portwalk+Place,+Portsmouth,+NH/@43.0788076,-70.7666399,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0dc6a60ff7:0x499dbd49926298aa!2m2!1d-70.760814!2d43.0776429!3e2",
+    },{
+        name: 'Shalimar India',
+        mode: 'Walkable',
+        distance: '0.5',
+        logo: 'shalimarlogo.jpg',
+        summary: "Indian",
+        website: 'https://shalimarindia.com/',
+        yelp: "https://www.yelp.com/biz/shalimar-india-portsmouth",
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412842-Reviews-Shalimar_India_Restaurant-Portsmouth_New_Hampshire.html',
+        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Shalimar+India,+Hanover+Street,+Portsmouth,+NH/@43.0785986,-70.768487,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0ba2ca2493:0x591f384e80606f50!2m2!1d-70.760028!2d43.077225!3e2",
     },
     {
         name: 'Durbar Square',
@@ -110,7 +130,7 @@ let restaurantData = [{
 
 function makeCard() {
     currentRestarantCard = '<div class="card border-secondary text-center"> \
-<h5 class="text-center m-1"><i class="fas fa-walking"></i> ' + restaurantData[i].mode + ' - ' + restaurantData[i].distance + ' miles</h5> \
+<h5 class="text-center m-1">' + (i+1) + '.   <i class="fas fa-walking"></i> ' + restaurantData[i].mode + ' - ' + restaurantData[i].distance + ' miles</h5> \
 <img class="card-img-top" src="./assets/images/restaurants/' + restaurantData[i].logo + '" alt="' + restaurantData[i].name + ' restaurant logo"> \
     <div class="card-body"> \
         <h5 class="card-title">' + restaurantData[i].summary + '</h5> \
