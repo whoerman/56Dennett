@@ -223,6 +223,16 @@ let restaurantData = [{
         yelp: "https://www.yelp.com/biz/old-ferry-landing-portsmouth",
         tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412895-Reviews-Old_Ferry_Landing-Portsmouth_New_Hampshire.html',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Old+Ferry+Landing,+Ceres+Street,+Portsmouth,+NH/@43.0786133,-70.7669854,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0ea0a13d3d:0x748bb6b735b74f52!2m2!1d-70.7570249!2d43.07877!3e2",
+    },{
+        name: 'Portsmouth Brewery',
+        mode: 'Walkable',
+        distance: '0.7',
+        logo: 'portsmouthbrewerylogo.jpg',
+        summary: "American, Brew Pub, Pub",
+        website: 'https://portsmouthbrewery.com/',
+        yelp: "https://www.yelp.com/biz/the-portsmouth-brewery-portsmouth",
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412805-Reviews-Portsmouth_Brewery-Portsmouth_New_Hampshire.html',
+        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Portsmouth+Brewery,+Market+Street,+Portsmouth,+NH/@43.0788887,-70.7672433,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c1a9d397b:0x2831df19d2764f6e!2m2!1d-70.7577747!2d43.0779123!3e2",
     },
     {
         name: 'Ristorante Massimo',
@@ -304,6 +314,16 @@ let restaurantData = [{
         yelp: "https://www.yelp.com/biz/street-portsmouth",
         tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3251688-Reviews-Street_Food_360-Portsmouth_New_Hampshire.html',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/STREET+eat%2Fdrink+360,+Islington+Street,+Portsmouth,+NH/@43.0745029,-70.7760124,15z/data=!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9b1bc0b6f7:0x499f50d15ba39a85!2m2!1d-70.7732358!2d43.069034!3e2",
+    },{
+        name: "Geno's",
+        mode: 'Walkable',
+        distance: '1.3',
+        logo: 'genologo.jpg',
+        summary: "Sandwiches, Soup",
+        website: 'http://www.genoschowder.com/',
+        yelp: "https://www.yelp.com/biz/genos-chowder-and-sandwich-shop-portsmouth",
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412922-Reviews-Geno_s_Chowder_Sandwich_Shop-Portsmouth_New_Hampshire.html',
+        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Geno's+Chowder+%26+Sandwich+Shop,+Mechanic+Street,+Portsmouth,+NH/@43.0770695,-70.7676275,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf12e0604ad5:0xf09d494047955fac!2m2!1d-70.7495329!2d43.0742353!3e2",
     },{
         name: '',
         mode: '',
