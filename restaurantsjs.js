@@ -143,6 +143,16 @@ let restaurantData = [{
         tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3381540-Reviews-Thirsty_Moose_Taphouse_Portsmouth-Portsmouth_New_Hampshire.html',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Thirsty+Moose+Tap+House+-+Portsmouth,+Congress+Street,+Portsmouth,+NH/@43.0778605,-70.7677341,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c77968efd:0xfc782c8906beb72!2m2!1d-70.7585687!2d43.0767951!3e2",
     },{
+        name: 'The Franklin',
+        mode: 'Walkable',
+        distance: '0.6',
+        logo: 'franklinlogo.jpg',
+        summary: "Seafood, American (New), Tapas/Small Plates",
+        website: 'https://franklinrestaurant.com/',
+        yelp: "https://www.yelp.com/biz/the-franklin-portsmouth",
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d8537521-Reviews-The_Franklin-Portsmouth_New_Hampshire.html',
+        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Franklin,+Fleet+Street,+Portsmouth,+NH/@43.0778605,-70.7679637,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0b9cb937ad:0x3184ff8b758db85d!2m2!1d-70.7593051!2d43.0767542!3e2",
+    },{
         name: 'Cava',
         mode: 'Walkable',
         distance: '0.7',
