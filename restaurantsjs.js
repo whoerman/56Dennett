@@ -233,6 +233,16 @@ let restaurantData = [{
         yelp: "https://www.yelp.com/biz/the-portsmouth-brewery-portsmouth",
         tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412805-Reviews-Portsmouth_Brewery-Portsmouth_New_Hampshire.html',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Portsmouth+Brewery,+Market+Street,+Portsmouth,+NH/@43.0788887,-70.7672433,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c1a9d397b:0x2831df19d2764f6e!2m2!1d-70.7577747!2d43.0779123!3e2",
+    },{
+        name: 'The Oar House',
+        mode: 'Walkable',
+        distance: '0.7',
+        logo: 'oarhouselogo.jpg',
+        summary: "Seafood, Pizza, Salad",
+        website: 'http://www.portsmouthoarhouse.com/',
+        yelp: "https://www.yelp.com/biz/the-oar-house-portsmouth",
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d449136-Reviews-The_Oar_House-Portsmouth_New_Hampshire.html',
+        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Oar+House,+Ceres+Street,+Portsmouth,+NH/@43.0786133,-70.7672918,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0eadbed5f1:0xfb73abf66c6038e7!2m2!1d-70.7580064!2d43.0789125!3e2",
     },
     {
         name: 'Ristorante Massimo',
