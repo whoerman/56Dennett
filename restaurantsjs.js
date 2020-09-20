@@ -3,7 +3,7 @@ let restaurantData = [{
         name: 'Barrio',
         location: 'https://www.google.com/maps/place/Barrio/@43.0799994,-70.7651773,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf098ccd0a59:0x638419366b50e4f6!8m2!3d43.0799994!4d-70.7629833?hl=en&authuser=0',
         logo: 'barriologo.jpg',
-        summary: 'Tacos are their specialty',
+        summary: 'Hip cantina with tacos & cocktails',
         pages: {
             website: 'https://barrio-tacos.com/location/barrio-portsmouth',
             facebook: 'https://www.facebook.com/BarrioNewEngland',
@@ -18,9 +18,9 @@ let restaurantData = [{
     },
     {
         name: 'Rooftop at Envio',
-        location: '',
+        location: 'https://www.google.com/maps/place/Rooftop+at+The+Envio/@43.0797459,-70.764615,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9ad89e7f4d:0x5b17ccd8a59d5b4c!8m2!3d43.0797459!4d-70.762421?hl=en&authuser=0',
         logo: 'enviologo.jpg',
-        summary: 'Drinks and Appetizers with a view of the city',
+        summary: 'Drinks and food with a view of the city',
         pages: {
             website: 'https://www.rooftopportsmouth.com/',
             facebook: 'https://www.facebook.com/rooftopportsmouth',
@@ -35,9 +35,9 @@ let restaurantData = [{
     },
     {
         name: 'Green Elephant',
-        location: '',
+        location: 'https://www.google.com/maps/place/Green+Elephant+Vegetarian+Bistro+%26+Bar/@43.0781121,-70.7635467,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0bba1d0bf1:0xcc537bb0eead071d!8m2!3d43.0781121!4d-70.7613527?hl=en&authuser=0',
         logo: 'greenelephantlogo.jpg',
-        summary: 'Vegetarian and Vegan',
+        summary: 'Creative, vegetarian Asian fare & drinks',
         pages: {
             website: 'https://www.greenelephantnh.com/',
             facebook: 'https://www.facebook.com/greenelephantnh',
@@ -52,9 +52,9 @@ let restaurantData = [{
     },
     {
         name: 'BRGR Bar',
-        location: '',
+        location: 'https://www.google.com/maps/place/BRGR+Bar/@43.078236,-70.7632962,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0bc9ecb8db:0x5e70b41df507e3a2!8m2!3d43.078236!4d-70.7611022?hl=en&authuser=0',
         logo: 'brgrlogo.jpg',
-        summary: "Burgers",
+        summary: "Wide variety of eclectic burgers",
         pages: {
             website: 'https://www.brgr-bar.com/',
             facebook: 'https://www.facebook.com/BRGRBAR',
@@ -68,9 +68,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Dos Amigos',
-        location: '',
+        location: 'https://www.google.com/maps/place/Dos+Amigos+Burritos+-+Portsmouth/@43.0776429,-70.763008,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0dc6a60ff7:0x499dbd49926298aa!8m2!3d43.0776429!4d-70.760814?hl=en&authuser=0',
         logo: 'dosamigoslogo.jpg',
-        summary: "Burritos",
+        summary: "Counter-serve spot for Mexican eats",
         pages: {
             website: 'https://www.dosamigosburritos.com/',
             facebook: 'https://www.facebook.com/DosAmigosBurritos',
@@ -84,9 +84,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Shalimar India',
-        location: '',
+        location: 'https://www.google.com/maps/place/Shalimar+India/@43.077225,-70.762222,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0ba2ca2493:0x591f384e80606f50!8m2!3d43.077225!4d-70.760028?hl=en&authuser=0',
         logo: 'shalimarlogo.jpg',
-        summary: "Indian",
+        summary: "Cozy spot for eclectic north Indian fare",
         pages: {
             website: 'https://shalimarindia.com/',
             facebook: 'https://www.facebook.com/Shalimar-India-in-Portsmouth-NH-03801-211030320491',
@@ -100,9 +100,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Earth Eagle',
-        location: '',
+        location: 'https://www.google.com/maps/place/Earth+Eagle+Brewings/@43.0792766,-70.761905,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0bfa9db5f3:0x83625780fde7c6d1!8m2!3d43.0792766!4d-70.759711?hl=en&authuser=0',
         logo: 'eartheaglelogo.jpg',
-        summary: "American, Brew Pub",
+        summary: "Upbeat nook for craft brews and pub eats",
         pages: {
             website: 'https://www.eartheaglebrewings.com/',
             facebook: 'https://www.facebook.com/eartheaglebrewings',
@@ -116,9 +116,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Row 34',
-        location: '',
+        location: 'https://www.google.com/maps/place/Row+34/@43.0773501,-70.7627275,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0bba37e057:0xdb46e8b9bda7532b!8m2!3d43.0773501!4d-70.7605335?hl=en&authuser=0',
         logo: 'row34logo.jpg',
-        summary: "American, Bar, Seafood",
+        summary: "Modern oyster bar with draft craft beer",
         pages: {
             website: 'https://www.row34.com/',
             facebook: 'https://www.facebook.com/Row34NH',
@@ -132,9 +132,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Bridge Street Bistrot',
-        location: '',
+        location: 'https://www.google.com/maps/place/Bridge+Street+Bistrot+%26+Wine+Bar/@43.0763292,-70.7640548,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0afcb68d55:0xdca894136fe70bd0!8m2!3d43.0763292!4d-70.7618608?hl=en&authuser=0',
         logo: 'bridgestreetlogo.jpg',
-        summary: "French, European, Wine Bar",
+        summary: "Homey spot for classic French cuisine",
         pages: {
             website: 'http://www.bridgestreetbistrot.com/',
             facebook: 'https://www.facebook.com/Bridge-Street-Bistrot-Wine-Bar-116311568396226',
@@ -148,9 +148,9 @@ let restaurantData = [{
         }
     }, {
         name: 'La Carreta',
-        location: '',
+        location: 'https://www.google.com/maps/place/La+Carreta+Mexican+Restaurant/@43.0771598,-70.7625623,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf43f4476eaf:0x85aabbb760c608a!8m2!3d43.0771598!4d-70.7603683?hl=en&authuser=0',
         logo: 'lacarrtalogo.jpg',
-        summary: "Mexican",
+        summary: "Relaxed, vibrant Maxican kitchen",
         pages: {
             website: 'https://lacarretamex.com/portsmouth/',
             facebook: 'https://www.facebook.com/La-Carreta-Portsmouth-1361120723928411',
@@ -164,9 +164,9 @@ let restaurantData = [{
         }
     }, {
         name: "Jumpin' Jay's",
-        location: '',
+        location: "https://www.google.com/maps/place/Jumpin'+Jay's+Fish+Cafe/@43.0756238,-70.7626514,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b3d9e98cd:0x6155a48c29e1d9c1!8m2!3d43.0756238!4d-70.7604574?hl=en&authuser=0",
         logo: 'jumpinjaylogo.jpg',
-        summary: "Fish is their specialty",
+        summary: "Slick, sophisticated seafood specialist",
         pages: {
             website: 'https://www.jumpinjays.com/',
             facebook: 'https://www.facebook.com/jumpinjays',
@@ -180,9 +180,9 @@ let restaurantData = [{
         }
     }, {
         name: 'The Friendly Toast',
-        location: '',
+        location: 'https://www.google.com/maps/place/The+Friendly+Toast/@43.076242,-70.762005,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b73022143:0x719da32f368a9b8e!8m2!3d43.076242!4d-70.759811?hl=en&authuser=0',
         logo: 'friendlytoastlogo.jpg',
-        summary: "American, Vegetarian Friendly, Vegan Options",
+        summary: "Funky, vegan-friendly American kitchen",
         pages: {
             website: 'https://thefriendlytoast.com/location/portsmouth-nh/',
             facebook: 'https://www.facebook.com/TheFriendlyToastPortsmouth',
@@ -196,9 +196,9 @@ let restaurantData = [{
         }
     }, {
         name: 'FlatBread',
-        location: '',
+        location: 'https://www.google.com/maps/place/Flatbread+Company/@43.0757574,-70.7623001,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b11450011:0x308bbb94cb0f8004!8m2!3d43.0757574!4d-70.7601061?hl=en&authuser=0',
         logo: 'flatbreadlogo.jpg',
-        summary: "Pizza",
+        summary: "Wood-fired pizzas made in clay ovens",
         pages: {
             website: 'https://flatbreadcompany.com/locations/portsmouth-nh/',
             facebook: 'https://www.facebook.com/FlatbreadPortsmouth',
@@ -212,9 +212,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Cafe Mediterraneo',
-        location: '',
+        location: 'https://www.google.com/maps/place/Cafe+Mediterraneo/@43.076341,-70.7622264,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b72c68977:0xbbb0e6c5b7d71e42!8m2!3d43.076341!4d-70.7600324?hl=en&authuser=0',
         logo: 'mediterraneologo.jpg',
-        summary: "Italian, Mediterranean, Vegetarian Friendly",
+        summary: "Bistro-like Italian restaurant with bar",
         pages: {
             website: 'https://www.cafe-mediterraneo.com/',
             facebook: 'https://www.facebook.com/Cafe-Mediterraneo-115135168575391',
@@ -228,9 +228,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Thirsty Moose',
-        location: '',
+        location: 'https://www.google.com/maps/place/Thirsty+Moose+Tap+House+-+Portsmouth/@43.0767951,-70.7607627,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c77968efd:0xfc782c8906beb72!8m2!3d43.0767951!4d-70.7585687?hl=en&authuser=0',
         logo: 'thirstymooselogo.jpg',
-        summary: "American, Bar, Pub",
+        summary: "Wide variety of beers on tap with pub food",
         pages: {
             website: 'https://www.thirstymoosetaphouse.com/portsmouth/',
             facebook: 'https://www.facebook.com/ThirstyMooseTapHouse',
@@ -244,9 +244,9 @@ let restaurantData = [{
         }
     }, {
         name: 'The Franklin',
-        location: '',
+        location: 'https://www.google.com/maps/place/The+Franklin/@43.0767542,-70.7614991,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b9cb937ad:0x3184ff8b758db85d!8m2!3d43.0767542!4d-70.7593051?hl=en&authuser=0',
         logo: 'franklinlogo.jpg',
-        summary: "Seafood, American (New), Tapas/Small Plates",
+        summary: "Sleek haunt for local seafood and tapas",
         pages: {
             website: 'https://franklinrestaurant.com/',
             facebook: 'https://www.facebook.com/thefranklinnh',
@@ -260,9 +260,9 @@ let restaurantData = [{
         }
     }, {
         name: 'The Goat',
-        location: '',
+        location: 'https://www.google.com/maps/place/The+Goat,+Portsmouth/@43.0758086,-70.762543,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b11499b8d:0xb278d170e0345ea4!8m2!3d43.0758086!4d-70.760349?hl=en&authuser=0',
         logo: 'goatlogo.jpg',
-        summary: "Burgers, Whiskey Bars, Music Venues",
+        summary: "Wppdsy American grill with live music",
         pages: {
             website: 'https://goatnh.com/portsmouth/',
             facebook: 'https://www.facebook.com/goatbarportsmouth',
@@ -276,9 +276,9 @@ let restaurantData = [{
         }
     }, {
         name: 'The Soupery',
-        location: '',
+        location: 'https://www.google.com/maps/place/The+Soupery+%7C+Juicery+Pops/@43.0782505,-70.7607393,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0bf8187d9b:0xbacd2b3fcaa24f13!8m2!3d43.0782505!4d-70.7585453?hl=en&authuser=0',
         logo: 'souperylogo.jpg',
-        summary: "Soup",
+        summary: "Counter=based specialty soups",
         pages: {
             website: 'http://www.wickedgoodsoup.com/',
             facebook: 'https://www.facebook.com/souperynh',
@@ -292,9 +292,9 @@ let restaurantData = [{
         }
     }, {
         name: 'The District',
-        location: '',
+        location: 'https://www.google.com/maps/place/The+District/@43.076406,-70.7619777,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b73892081:0xd25f58049edb18e!8m2!3d43.076406!4d-70.7597837?hl=en&authuser=0',
         logo: 'districtlogo.jpg',
-        summary: "American (New), Gastropubs",
+        summary: "Farm-to-fork eatery with bar & patio",
         pages: {
             website: 'http://www.thedistrictnh.com/',
             facebook: 'https://www.facebook.com/TheDistrictNH',
@@ -308,9 +308,9 @@ let restaurantData = [{
         }
     }, {
         name: 'The Wilder',
-        location: '',
+        location: 'https://www.google.com/maps/place/The+Wilder/@43.0771722,-70.7618523,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b99c6603d:0x4810401c775b7d31!8m2!3d43.0771722!4d-70.7596583?hl=en&authuser=0',
         logo: 'wilderlogo.jpg',
-        summary: "Cocktail Bars, Gastropubs, American (New)",
+        summary: "New American dishes & craft cocktails",
         pages: {
             website: 'https://www.wilderportsmouth.com/',
             facebook: 'https://www.facebook.com/wilderportsmouth',
@@ -324,9 +324,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Cava',
-        location: '',
+        location: 'https://www.google.com/maps/place/Cava/@43.0776583,-70.7591468,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c13f0bedf:0xa47d27fcadaca02b!8m2!3d43.0776583!4d-70.7569528?hl=en&authuser=0',
         logo: 'cavalogo.jpg',
-        summary: "Tapas and Wine Bar",
+        summary: "Innovative tapas & wine in a warm space",
         pages: {
             website: 'https://www.cavatapasandwinebar.com/',
             facebook: 'https://www.facebook.com/CavaTapasAndWineBar',
@@ -341,9 +341,9 @@ let restaurantData = [{
     },
     {
         name: 'Durbar Square',
-        location: '',
+        location: 'https://www.google.com/maps/place/Durbar+Square+Restaurant/@43.0773378,-70.759771,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c6da6ed89:0x836ad8e345857cf3!8m2!3d43.0773378!4d-70.757577?hl=en&authuser=0',
         logo: 'durbarlogo.jpg',
-        summary: 'Nepali Vegetarian Friendly Vegan Options',
+        summary: 'Himalayan cuisine in a warm atmosphere',
         pages: {
             website: 'http://www.durbarsquareportsmouth.com/',
             facebook: 'https://www.facebook.com/durbarsquarerestaurant1',
@@ -357,9 +357,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Black Trumpet',
-        location: '',
+        location: 'https://www.google.com/maps/place/Black+Trumpet/@43.078674,-70.759872,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0ea623ab2f:0x3642cef4f728b3aa!8m2!3d43.078674!4d-70.757678?hl=en&authuser=0',
         logo: 'blacktrumpetlogo.jpg',
-        summary: "Vegetarian Friendly, Gluten Free Options",
+        summary: "Cozy spot for refined global fare & wine",
         pages: {
             website: 'https://www.blacktrumpetbistro.com/',
             facebook: 'https://www.facebook.com/blacktrumpet',
@@ -373,9 +373,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Surf',
-        location: '',
+        location: 'https://www.google.com/maps/place/Surf+Portsmouth/@43.078935,-70.7583045,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0e85e4eee7:0x6e4b5e2552e05131!8m2!3d43.078935!4d-70.7561105?hl=en&authuser=0',
         logo: 'surflogo.jpg',
-        summary: "Seafood, Sushi",
+        summary: "Innovative seafood on the waterfront",
         pages: {
             website: 'https://www.surfseafood.com/',
             facebook: 'https://www.facebook.com/SurfPortsmouthNH',
@@ -389,9 +389,9 @@ let restaurantData = [{
         }
     }, {
         name: 'River House',
-        location: '',
+        location: 'https://www.google.com/maps/place/River+House/@43.0788002,-70.7588697,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0e9e92d645:0x9c7122ac48d9ba9a!8m2!3d43.0788002!4d-70.7566757?hl=en&authuser=0',
         logo: 'riverhouselogo.jpg',
-        summary: "Seafood, American (Traditional), Cocktail Bars",
+        summary: "Unfussy coastal cooking and river views",
         pages: {
             website: 'https://riverhouse53bow.com/',
             facebook: 'https://www.facebook.com/RiverHousePortsmouth',
@@ -405,9 +405,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Moxy',
-        location: '',
+        location: 'https://www.google.com/maps/place/Moxy/@43.0777893,-70.7590245,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c3d6c9e29:0x9dc48c605f8921c7!8m2!3d43.0777893!4d-70.7568305?hl=en&authuser=0',
         logo: 'moxylogo.jpg',
-        summary: "American (Traditional), Tapas/Small Plates, Bars",
+        summary: "Modern American tapas in smart digs",
         pages: {
             website: 'https://moxyrestaurant.com/',
             facebook: 'https://www.facebook.com/moxyrestaurant',
@@ -421,9 +421,9 @@ let restaurantData = [{
         }
     }, {
         name: "Rudi's Portsmouth",
-        location: '',
+        location: "https://www.google.com/maps/place/Rudi's+Portsmouth/@43.077185,-70.760557,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c772fe23d:0xaa584aa1a3afe834!8m2!3d43.077185!4d-70.758363?hl=en&authuser=0",
         logo: 'rudilogo.jpg',
-        summary: "American, Bar, Pub",
+        summary: "New American cuisine & live jazz",
         pages: {
             website: 'https://www.rudisportsmouth.com/',
             facebook: 'https://www.facebook.com/rudisportsmouth',
@@ -437,9 +437,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Old Ferry Landing',
-        location: '',
+        location: 'https://www.google.com/maps/place/Old+Ferry+Landing/@43.07877,-70.7592189,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0ea0a13d3d:0x748bb6b735b74f52!8m2!3d43.07877!4d-70.7570249?hl=en&authuser=0',
         logo: 'oldferrylogo.jpg',
-        summary: "Seafood, Bars, Juice Bars & Smoothies",
+        summary: "Waterfront seafood diner with a deck",
         pages: {
             website: 'http://oldferrylanding.com/',
             facebook: 'https://www.facebook.com/Old-Ferry-Landing-167224509050',
@@ -453,9 +453,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Portsmouth Brewery',
-        location: '',
+        location: 'https://www.google.com/maps/place/Portsmouth+Brewery/@43.0779123,-70.7599687,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c1a9d397b:0x2831df19d2764f6e!8m2!3d43.0779123!4d-70.7577747?hl=en&authuser=0',
         logo: 'portsmouthbrewerylogo.jpg',
-        summary: "American, Brew Pub, Pub",
+        summary: "Lively brewpub with eclectic tavern eats",
         pages: {
             website: 'https://portsmouthbrewery.com/',
             facebook: 'https://www.facebook.com/Portsmouthbrewery',
@@ -469,9 +469,9 @@ let restaurantData = [{
         }
     }, {
         name: 'The Oar House',
-        location: '',
+        location: 'https://www.google.com/maps/place/The+Oar+House/@43.0789125,-70.7602004,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0eadbed5f1:0xfb73abf66c6038e7!8m2!3d43.0789125!4d-70.7580064?hl=en&authuser=0',
         logo: 'oarhouselogo.jpg',
-        summary: "Seafood, Pizza, Salad",
+        summary: "Quaint, waterfront seafood house & pub",
         pages: {
             website: 'http://www.portsmouthoarhouse.com/',
             facebook: 'https://www.facebook.com/OarHouseRestaurant',
@@ -485,9 +485,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Library',
-        location: '',
+        location: 'https://www.google.com/maps/place/Library+Restaurant/@43.0752713,-70.7616932,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b469763ad:0x23bfc651b711a2c8!8m2!3d43.0752713!4d-70.7594992?hl=en&authuser=0',
         logo: 'librarylogo.jpg',
-        summary: "Steakhouses, Sandwiches",
+        summary: "Upscale steakhouse with history",
         pages: {
             website: 'https://libraryrestaurant.com/',
             facebook: 'https://www.facebook.com/libraryrestaurant',
@@ -501,9 +501,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Portsmouth Gas Light',
-        location: '',
+        location: 'https://www.google.com/maps/place/Portsmouth+Gas+Light+Co./@43.0780983,-70.7599149,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c1b99f18d:0x325e9379facc0c8d!8m2!3d43.0780983!4d-70.7577209?hl=en&authuser=0',
         logo: 'gaslightlogo.jpg',
-        summary: "Pizza, American (New), Dance Clubs",
+        summary: "Pub, pizzaria & club in an 1837 building",
         pages: {
             website: 'https://www.portsmouthgaslight.com/',
             facebook: 'https://www.facebook.com/portsmouthgaslightco',
@@ -517,9 +517,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Martingale Wharf',
-        location: '',
+        location: 'https://www.google.com/maps/place/Martingale+Wharf/@43.0789431,-70.7582932,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0e8586e5f5:0x22098f26fe8e8c14!8m2!3d43.0789431!4d-70.7560992?hl=en&authuser=0',
         logo: 'martingalelogo.jpg',
-        summary: "Seafood, Venues & Event Spaces, American (Traditional)",
+        summary: "Sleek, waterfront New American dining",
         pages: {
             website: 'https://www.martingalewharf.com/',
             facebook: 'https://www.facebook.com/martingale.wharf.restaurant',
@@ -533,9 +533,9 @@ let restaurantData = [{
         }
     }, {
         name: 'The Kitchen',
-        location: '',
+        location: 'https://www.google.com/maps/place/The+Kitchen/@43.0743491,-70.7662062,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf755a4ae42d:0x2fb7c3268575de3b!8m2!3d43.0743491!4d-70.7640122?hl=en&authuser=0',
         logo: 'kitchenlogo.jpg',
-        summary: "Sandwiches, American (New)",
+        summary: "Cozy, modern sandwich shop",
         pages: {
             website: 'https://www.thekitchenportsmouth.com/',
             facebook: 'https://www.facebook.com/TheKitchenNH',
@@ -549,9 +549,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Pocos Bow Street Cantina',
-        location: '',
+        location: "https://www.google.com/maps/place/Poco's+Bow+Street+Cantina/@43.078656,-70.759197,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0e9fea7d4b:0x3756c1a4e8495088!8m2!3d43.078656!4d-70.757003?hl=en&authuser=0",
         logo: 'pocologo.jpg',
-        summary: "Mexican, Bars",
+        summary: "Cozy Mexican spot with a riverside deck",
         pages: {
             website: 'http://www.pocosbowstreetcantina.com/',
             facebook: 'https://www.facebook.com/pocosnh',
@@ -565,9 +565,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Pink Bamboo',
-        location: '',
+        location: 'https://www.google.com/maps/place/Pink+Bamboo+Hot+Pot+Cafe/@43.0781143,-70.7593064,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c22707529:0x1d9bc313e2169ba5!8m2!3d43.0781143!4d-70.7571124?hl=en&authuser=0',
         logo: 'pinkbamboologo.jpg',
-        summary: "Chinese, Hot Pot, Bars",
+        summary: "Chinese hot piot dining in mpodern setting",
         pages: {
             website: 'http://www.pinkbamboocafe.com/',
             facebook: 'https://www.facebook.com/PinkBambooHotPotCafe',
@@ -582,9 +582,9 @@ let restaurantData = [{
     },
     {
         name: 'Ristorante Massimo',
-        location: '',
+        location: "https://www.google.com/maps/place/Massimo's+-+Ristorante+Massimo/@43.0771685,-70.7583364,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c3818b215:0xf0bf1bca27cab65!8m2!3d43.0771685!4d-70.7561424?hl=en&authuser=0",
         logo: 'massimologo.jpg',
-        summary: 'Italian',
+        summary: 'Italian fine dining in elegant quarters',
         pages: {
             website: 'https://ristorantemassimo.com/',
             facebook: 'https://www.facebook.com/RistoranteMassimo',
@@ -598,9 +598,9 @@ let restaurantData = [{
         }
     }, {
         name: '5 Thai Bistro',
-        location: '',
+        location: 'https://www.google.com/maps/place/5+Thai+Bistro/@43.0762412,-70.7588849,17z/data=!4m5!3m4!1s0x89e2bf0c8a5bce9f:0x46fc7f31c2b7db62!8m2!3d43.0762255!4d-70.7574526?hl=en&authuser=0',
         logo: '5Thailogo.jpg',
-        summary: 'Thai',
+        summary: 'Gluten-free Thai options in a quaint setting',
         pages: {
             website: 'https://www.5thaibistro.com/',
             facebook: 'https://www.facebook.com/5ThaiBistro',
@@ -614,9 +614,9 @@ let restaurantData = [{
         }
     }, {
         name: "Lexie's Joint",
-        location: '',
+        location: "https://www.google.com/maps/place/Lexie's+Joint/@43.0737238,-70.7668616,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9fe01264e3:0x5627b4dc5201421a!8m2!3d43.0737238!4d-70.7646676?hl=en&authuser=0",
         logo: 'lexieslogo.jpg',
-        summary: 'Burgers',
+        summary: 'Snug spot for creative burgers & beer',
         pages: {
             website: 'https://www.peaceloveburgers.com/portsmouth',
             facebook: 'https://www.facebook.com/LexiesJoint',
@@ -630,9 +630,9 @@ let restaurantData = [{
         }
     }, {
         name: "Colby's",
-        location: '',
+        location: "https://www.google.com/maps/place/Colby's+Breakfast+%26+Lunch/@43.0774445,-70.7577328,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c32dad8f5:0x6db50774e37741f5!8m2!3d43.0774445!4d-70.7555388?hl=en&authuser=0",
         logo: 'colbyslogo.jpg',
-        summary: "Breakfast and Lunch",
+        summary: "Bustling daytime nook for American chow",
         pages: {
             website: 'https://colbysportsmouthnh.com/',
             facebook: 'https://www.facebook.com/Colbys-Breakfast-Lunch-121804041210665',
@@ -646,9 +646,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Book and Bar',
-        location: '',
+        location: 'https://www.google.com/maps/place/Portsmouth+Book+%26+Bar/@43.0759966,-70.7595171,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c8a5bcf17:0x13268c15a55e062!8m2!3d43.0759966!4d-70.7573231?hl=en&authuser=0',
         logo: 'bookandbarlogo.jpg',
-        summary: "Bars, Bookstores, Coffee & Tea",
+        summary: "Bookshop & bar set in a circa-1860 building",
         pages: {
             website: 'http://www.bookandbar.com/',
             facebook: 'https://www.facebook.com/PortsmouthBookAndBar',
@@ -662,9 +662,9 @@ let restaurantData = [{
         }
     }, {
         name: 'The Roundabout',
-        location: '',
+        location: 'https://www.google.com/maps/place/Roundabout+Diner+and+Lounge/@43.0731,-70.7810976,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf96d3edca43:0x9398329efbb4b47e!8m2!3d43.0731!4d-70.7789036?hl=en&authuser=0',
         logo: 'roundaboutlogo.jpg',
-        summary: "Basic Diner Food",
+        summary: "Confort food & booze in cool, diner digs",
         pages: {
             website: 'https://www.roundaboutdiner.com/',
             facebook: 'https://www.facebook.com/roundaboutdiner',
@@ -678,9 +678,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Clipper tavern',
-        location: '',
+        location: 'https://www.google.com/maps/place/Clipper+Tavern/@43.0758098,-70.7589314,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89e2bf0cf4766e21:0x720318a5d206bf17!2sClipper+Tavern!8m2!3d43.0758098!4d-70.7567374!10e1!3m4!1s0x89e2bf0cf4766e21:0x720318a5d206bf17!8m2!3d43.0758098!4d-70.7567374?hl=en&authuser=0',
         logo: 'clipperlogo.jpg',
-        summary: "Burgers, American (New), Bars",
+        summary: "Classic pub food in a warm setting",
         pages: {
             website: 'https://www.clippertavernportsmouth.com/',
             facebook: 'https://www.facebook.com/clippertavern',
@@ -694,9 +694,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Cure',
-        location: '',
+        location: 'https://www.google.com/maps/place/Cure/@43.076507,-70.758262,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c8ad4500b:0xdcb9e05c8b2781af!8m2!3d43.076507!4d-70.756068?hl=en&authuser=0',
         logo: 'curelogo.jpg',
-        summary: 'Amazing selections, from the mushroom forrester to the duck breast',
+        summary: 'Cozy venue for American dinner and drinks',
         pages: {
             website: 'https://www.curerestaurantportsmouth.com/',
             facebook: 'https://www.facebook.com/CureRestaurant',
@@ -710,9 +710,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Raleigh Wine Bar',
-        location: '',
+        location: 'https://www.google.com/maps/place/Raleigh+Wine+Bar+%2B+Eatery/@43.0773579,-70.7563254,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0dc3b65411:0xd076b3afdd6aa692!8m2!3d43.0773579!4d-70.7541314?hl=en&authuser=0',
         logo: 'ralieghlogo.jpg',
-        summary: "Wine Bars, American (New), Specialty Food",
+        summary: "Elegant food and wine in a sleek setting",
         pages: {
             website: 'https://www.raleighwinebar.com/?fbclid=IwAR2Gqmu1E_KAnDz3_q7z8tVpshkr8AnV48feDC-9PweupIjscmlnmOKoZy4',
             facebook: 'https://www.facebook.com/raleighwinebar',
@@ -726,9 +726,9 @@ let restaurantData = [{
         }
     }, {
         name: "Fezziwig's",
-        location: '',
+        location: "https://www.google.com/maps/place/Fezziwig's+Food+and+Fountain/@43.0768584,-70.7568096,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0db86e4663:0xd19f1a3ffed689f4!8m2!3d43.0768584!4d-70.7546156?hl=en&authuser=0",
         logo: 'fezziwiglogo.jpg',
-        summary: "Cafes",
+        summary: "A charming brasserie with sandwiches and drinks",
         pages: {
             website: 'https://fezziwigs.shopsettings.com/',
             facebook: 'https://www.facebook.com/FezziwigsFoodandFountain',
@@ -742,9 +742,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Domo',
-        location: '',
+        location: 'https://www.google.com/maps/place/Domo+Japanese+Restaurant/@43.0769735,-70.756567,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0dc6e22189:0x32161f7e829be9b9!8m2!3d43.0769735!4d-70.754373?hl=en&authuser=0',
         logo: 'domologo.jpg',
-        summary: "Sushi Bars, Japanese, Thai",
+        summary: "Refined setting for sushi & grill fare",
         pages: {
             website: 'http://domoportsmouth.com/',
             facebook: 'https://www.facebook.com/DomoPortsmouth',
@@ -758,9 +758,9 @@ let restaurantData = [{
         }
     }, {
         name: 'STREET',
-        location: '',
+        location: 'https://www.google.com/maps/place/STREET+eat%2Fdrink+360/@43.069034,-70.7754298,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b1bc0b6f7:0x499f50d15ba39a85!8m2!3d43.069034!4d-70.7732358?hl=en&authuser=0',
         logo: 'streetlogo.jpg',
-        summary: "Bar, Vegetarian Friendly, Vegan Options",
+        summary: "Colorful, global kitchen & hopping bar",
         pages: {
             website: 'https://www.streetfood360.com/',
             facebook: 'https://www.facebook.com/STREETrestaurant',
@@ -774,9 +774,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Conerstone West End',
-        location: '',
+        location: 'https://www.google.com/maps/place/Cornerstone+Artisanal+Pizza+%26+Craft+Beer/@43.0697198,-70.7729581,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b8620d55b:0x594c7552913a9bd7!8m2!3d43.0697198!4d-70.7707641?hl=en&authuser=0',
         logo: 'cornerstonelogo.jpg',
-        summary: "Pizza, Burgers",
+        summary: "Artisanal pizza and craft beer in a hip, factory setting",
         pages: {
             website: 'https://cornerstoneportsmouth.com/',
             facebook: 'https://www.facebook.com/cornerstonewestendportsmouth',
@@ -790,9 +790,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Botanica',
-        location: '',
+        location: 'https://www.google.com/maps/place/Botanica+Restaurant+and+Gin+Bar/@43.0697703,-70.7727715,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf2f1247d21b:0x8789f09b7bcbd09c!8m2!3d43.0697703!4d-70.7705775?hl=en&authuser=0',
         logo: 'botanicalogo.jpg',
-        summary: "French, Cocktail Bars, Desserts",
+        summary: "Sleek, specialty gin bar with French flair",
         pages: {
             website: 'https://www.botanicanh.com/',
             facebook: 'https://www.facebook.com/botanicanh',
@@ -806,9 +806,9 @@ let restaurantData = [{
         }
     }, {
         name: 'Cafe Espresso',
-        location: '',
+        location: 'https://www.google.com/maps/place/Cafe+Espresso/@43.0693633,-70.7734524,17z/data=!3m2!4b1!5s0x89e2bf9b9ce6beaf:0x290ab22deaff8c29!4m5!3m4!1s0x89e2bf9ba097e131:0xb5dc36a6533c5ee!8m2!3d43.0693633!4d-70.7712584?hl=en&authuser=0',
         logo: 'cafeespressologo.jpg',
-        summary: "Breakfast & Brunch, Burgers, Sandwiches",
+        summary: "Homey, American breakfast & lunch staple",
         pages: {
             website: 'https://www.cafe--espresso.com/',
             facebook: 'https://www.facebook.com/cafeespressoportsmouth',
@@ -822,9 +822,9 @@ let restaurantData = [{
         }
     }, {
         name: "MoJo's BBQ Shack",
-        location: '',
+        location: "https://www.google.com/maps/place/MoJo's+BBQ+Grill+%26+Tavern/@43.0698194,-70.771394,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b7bc513fb:0x1bfa741cd6efa168!8m2!3d43.0698194!4d-70.7692?hl=en&authuser=0",
         logo: 'mojologo.jpg',
-        summary: "Barbeque, Sports Bars",
+        summary: "Easy-going BBQ & beer pit stop",
         pages: {
             website: 'https://www.mojosportsmouth.com/',
             facebook: 'https://www.facebook.com/MoJosBBQGrillandTavern',
@@ -838,9 +838,9 @@ let restaurantData = [{
         }
     }, {
         name: "Sander's Seafod",
-        location: '',
+        location: 'https://www.google.com/maps/place/Sanders+Fish+Market/@43.0729505,-70.7525751,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf12cbffcbc1:0xfadd1192d1e1f98b!8m2!3d43.0729505!4d-70.7503811?hl=en&authuser=0',
         logo: 'sanderslogo.jpg',
-        summary: "Seafood Markets",
+        summary: "Counter service lobster rolls and seafood to cook at home",
         pages: {
             website: 'https://sanderslobster.com/',
             facebook: 'https://www.facebook.com/sandersfishmarket',
@@ -854,9 +854,9 @@ let restaurantData = [{
         }
     }, {
         name: "Geno's",
-        location: '',
+        location: "https://www.google.com/maps/place/Geno's+Chowder+%26+Sandwich+Shop/@43.0742353,-70.7517269,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf12e0604ad5:0xf09d494047955fac!8m2!3d43.0742353!4d-70.7495329?hl=en&authuser=0",
         logo: 'genologo.jpg',
-        summary: "Sandwiches, Soup",
+        summary: "Clam chowder & lobster roll mainstay",
         pages:{
             website: 'http://www.genoschowder.com/',
             facebook: 'https://www.facebook.com/Genos-Chowder-and-Sandwich-Shop-110407852340391',
@@ -870,14 +870,14 @@ let restaurantData = [{
         }
     }, {
         name: '',
-        location: '',
+        location: "",
         logo: '',
         summary: "",
         pages: {
             website: '',
             facebook: '',
             yelp: "",
-            tripadvisor: '',    
+            tripadvisor: "''",    
         },
         dennett: {
             mode: '',
