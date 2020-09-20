@@ -278,7 +278,7 @@ let restaurantData = [{
         name: 'The Soupery',
         location: 'https://www.google.com/maps/place/The+Soupery+%7C+Juicery+Pops/@43.0782505,-70.7607393,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0bf8187d9b:0xbacd2b3fcaa24f13!8m2!3d43.0782505!4d-70.7585453?hl=en&authuser=0',
         logo: 'souperylogo.jpg',
-        summary: "Counter=based specialty soups",
+        summary: "Counter based specialty soups",
         pages: {
             website: 'http://www.wickedgoodsoup.com/',
             facebook: 'https://www.facebook.com/souperynh',
@@ -323,6 +323,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Wilder,+Fleet+Street,+Portsmouth,+NH/@43.0786028,-70.7682553,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0b99c6603d:0x4810401c775b7d31!2m2!1d-70.7596583!2d43.0771722!3e2?hl=en&authuser=0",
         }
     }, {
+        name: "Lazy Jack's",
+        location: "https://www.google.com/maps/place/Lazy+Jack's/@43.0790909,-70.7601056,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0eafab1a3f:0xc8bc7e790c650043!8m2!3d43.0790909!4d-70.7579116?hl=en&authuser=0",
+        logo: 'lazyjacklogo.jpg',
+        summary: "Casual waterfron dining and drinks",
+        pages: {
+            website: 'https://lazyjackswateringhole.com/',
+            facebook: 'https://www.facebook.com/lazyjackswateringhole',
+            yelp: "https://www.yelp.com/biz/lazy-jacks-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d8439450-Reviews-Lazy_Jacks-Portsmouth_New_Hampshire.html",    
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.6',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Lazy+Jack's,+54+Ceres+St,+Portsmouth,+NH+03801/@43.0788887,-70.7672918,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0eafab1a3f:0xc8bc7e790c650043!2m2!1d-70.7579116!2d43.0790909!3e2?hl=en&authuser=0",
+        },
+    },{
         name: 'Cava',
         location: 'https://www.google.com/maps/place/Cava/@43.0776583,-70.7591468,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c13f0bedf:0xa47d27fcadaca02b!8m2!3d43.0776583!4d-70.7569528?hl=en&authuser=0',
         logo: 'cavalogo.jpg',
@@ -581,6 +597,40 @@ let restaurantData = [{
         }
     },
     {
+        name: 'Caffe Kilim',
+        location: "https://www.google.com/maps/place/Caffe+Kilim/@43.0744444,-70.7660746,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf27eed61ff7:0x44c5d5dc4d1286ef!8m2!3d43.0744444!4d-70.7638806?hl=en&authuser=0",
+        logo: 'kilimlogo.jpg',
+        summary: "Art-adorned Turkish coffe shop",
+        pages: {
+            website: 'https://www.caffekilim.com/',
+            facebook: 'https://www.facebook.com/Caffe-Kilim-and-Market-82880680383',
+            yelp: "https://www.yelp.com/biz/caffe-kilim-and-market-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d412928-Reviews-Caffe_Kilim-Portsmouth_New_Hampshire.html",    
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.7',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Caffe+Kilim,+163+Islington+St,+Portsmouth,+NH+03801/@43.0771864,-70.7688886,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf27eed61ff7:0x44c5d5dc4d1286ef!2m2!1d-70.7638806!2d43.0744444!3e2?hl=en&authuser=0",
+        },
+    },
+    {
+        name: 'Elephantine Bakery',
+        location: "https://www.google.com/maps/place/Elephantine+Bakery/@43.0776717,-70.759017,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf98e03dbc19:0x18152beaa98a5804!8m2!3d43.0776717!4d-70.756823?hl=en&authuser=0",
+        logo: 'elephatinelogo.jpg',
+        summary: "Artisanal bakeshop serving fine breads and pastries",
+        pages: {
+            website: 'https://www.elephantinebakery.com/',
+            facebook: 'https://www.facebook.com/elephantinebakery',
+            yelp: "https://www.yelp.com/biz/elephantine-bakery-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d15660734-Reviews-Elephantine_Bakery-Portsmouth_New_Hampshire.html",    
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.7',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Elephantine+Bakery,+10+Commercial+Alley+%232,+Portsmouth,+NH+03801/@43.077824,-70.7668845,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf98e03dbc19:0x18152beaa98a5804!2m2!1d-70.756823!2d43.0776717!3e2?hl=en&authuser=0",
+        },
+    },
+    {
         name: 'Ristorante Massimo',
         location: "https://www.google.com/maps/place/Massimo's+-+Ristorante+Massimo/@43.0771685,-70.7583364,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c3818b215:0xf0bf1bca27cab65!8m2!3d43.0771685!4d-70.7561424?hl=en&authuser=0",
         logo: 'massimologo.jpg',
@@ -677,7 +727,7 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Roundabout+Diner+and+Lounge,+Portsmouth+Traffic+Circle,+Portsmouth,+NH/@43.0783828,-70.7627218,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf96d3edca43:0x9398329efbb4b47e!2m2!1d-70.7789036!2d43.0731!3e2?hl=en&authuser=0",
         }
     }, {
-        name: 'Clipper tavern',
+        name: 'Clipper Tavern',
         location: 'https://www.google.com/maps/place/Clipper+Tavern/@43.0758098,-70.7589314,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89e2bf0cf4766e21:0x720318a5d206bf17!2sClipper+Tavern!8m2!3d43.0758098!4d-70.7567374!10e1!3m4!1s0x89e2bf0cf4766e21:0x720318a5d206bf17!8m2!3d43.0758098!4d-70.7567374?hl=en&authuser=0',
         logo: 'clipperlogo.jpg',
         summary: "Classic pub food in a warm setting",
@@ -693,6 +743,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Clipper+Tavern,+Pleasant+Street,+Portsmouth,+NH/@43.0773484,-70.7668417,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0cf4766e21:0x720318a5d206bf17!2m2!1d-70.7567374!2d43.0758098!3e2?hl=en&authuser=0",
         }
     }, {
+        name: 'The Hammer',
+        location: "https://www.google.com/maps/place/The+Hammer+Pub+and+Grille/@43.0761236,-70.759174,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bff63aa425dd:0x20c53ab8ec551669!8m2!3d43.0761236!4d-70.75698?hl=en&authuser=0",
+        logo: 'hammerlogo.jpg',
+        summary: "American Pub food in the old Rusty Hammer",
+        pages: {
+            website: 'https://www.facebook.com/TheHammerPubandGrille',
+            facebook: 'https://www.facebook.com/TheHammerPubandGrille',
+            yelp: "https://www.yelp.com/biz/the-hammer-pub-and-grille-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d20202926-Reviews-The_Hammer_Pub_and_Grille-Portsmouth_New_Hampshire.html",    
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.8',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Hammer+Pub+and+Grille,+49+Pleasant+St,+Portsmouth,+NH+03801/@43.0774665,-70.7670917,16z/data=!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bff63aa425dd:0x20c53ab8ec551669!2m2!1d-70.75698!2d43.0761236!3e2?hl=en&authuser=0",
+        },
+    },{
         name: 'Cure',
         location: 'https://www.google.com/maps/place/Cure/@43.076507,-70.758262,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c8ad4500b:0xdcb9e05c8b2781af!8m2!3d43.076507!4d-70.756068?hl=en&authuser=0',
         logo: 'curelogo.jpg',
@@ -756,6 +822,23 @@ let restaurantData = [{
             distance: '0.9',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Domo+Japanese+Restaurant,+State+Street,+Portsmouth,+NH/@43.0774206,-70.7656595,16z/data=!3m2!4b1!5s0x89e2bf9b9ce6beaf:0x290ab22deaff8c29!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0dc6e22189:0x32161f7e829be9b9!2m2!1d-70.754373!2d43.0769735!3e2?hl=en&authuser=0",
         }
+    },
+    {
+        name: "Mr Kim's",
+        location: "https://www.google.com/maps/place/Mr+Kim's/@43.0770801,-70.7569379,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf30349ef54b:0x9d5896499169afd7!8m2!3d43.0770801!4d-70.7547439?hl=en&authuser=0",
+        logo: 'mrkimslogo.jpg',
+        summary: "Korean homestyle cooking in a cozy space",
+        pages: {
+            website: 'https://www.mrkimsrestaurant.com/',
+            facebook: 'https://www.facebook.com/mrkimsrestaurant',
+            yelp: "https://www.yelp.com/biz/mr-kims-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d17691752-Reviews-Mr_Kim_s-Portsmouth_New_Hampshire.html",    
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.9',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Mr+Kim's,+107+State+Street,+Portsmouth,+NH+03801/@43.0774206,-70.7657736,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf30349ef54b:0x9d5896499169afd7!2m2!1d-70.7547439!2d43.0770801!3e2?hl=en&authuser=0",
+        },
     }, {
         name: 'STREET',
         location: 'https://www.google.com/maps/place/STREET+eat%2Fdrink+360/@43.069034,-70.7754298,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b1bc0b6f7:0x499f50d15ba39a85!8m2!3d43.069034!4d-70.7732358?hl=en&authuser=0',
@@ -801,7 +884,7 @@ let restaurantData = [{
         },
         dennett: {
             mode: 'Walakable',
-            distance: '1,0',
+            distance: '1.0',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Botanica+Restaurant+and+Gin+Bar,+Brewery+Lane+%23105,+Portsmouth,+NH/@43.0783828,-70.7627218,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf2f1247d21b:0x8789f09b7bcbd09c!2m2!1d-70.7705775!2d43.0697703!3e2?hl=en&authuser=0"
         }
     }, {
@@ -877,7 +960,7 @@ let restaurantData = [{
             website: '',
             facebook: '',
             yelp: "",
-            tripadvisor: "''",    
+            tripadvisor: "",    
         },
         dennett: {
             mode: '',
@@ -887,15 +970,10 @@ let restaurantData = [{
     },
 ];
 
-
-// Cafe Kilim
-// Mr Kim 
 // Red rover creamery
 // Ceres street bakery
-// The Hammer
 // Ceo's Gelato
 // Mos 
-// elephantine
 // tj
 // cafe van solln 
 // danieal street tavern
@@ -923,7 +1001,21 @@ let restaurantData = [{
 // breadbox 
 // wrap shack 
 
+// offerings: {
+//     drinks: {
+//         coffee: "",
+//         beer: {
+//             bottle: "",
+//             draft: "",
+//             taps: "",
+//         },
+//         wine: "",
+//         cocktails: "",
+//     },
+//     food: {
 
+//     }
+// }
 
 
 
