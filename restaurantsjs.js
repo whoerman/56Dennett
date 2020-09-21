@@ -677,6 +677,22 @@ let restaurantData = [{
             distance: '0.7',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Works+Bakery+Cafe,+9+Congress+Street,+Portsmouth,+NH+03801/@43.0778605,-70.7676224,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c78ff0989:0x82132d53117b8b03!2m2!1d-70.7584091!2d43.0769246!3e2?hl=en&authuser=0",
         },
+    }, {
+        name: 'Cup of Joe',
+        location: "https://www.google.com/maps/place/Cup+of+Joe/@43.0776031,-70.7594955,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c1408325d:0x9e75127fd100c165!8m2!3d43.0776031!4d-70.7573015?hl=en&authuser=0",
+        logo: 'cupofjoelogo.jpg',
+        summary: "Coffee & quick bites in a warm spot",
+        pages: {
+            website: 'https://www.cupofjoenh.com/',
+            facebook: 'https://www.facebook.com/cupofjoeNH',
+            yelp: "https://www.yelp.com/biz/cup-of-joe-portsmouth?osq=cup+of+joe",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d14173666-Reviews-Cup_of_Joe-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.7',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Cup+of+Joe,+31+Market+St,+Portsmouth,+NH+03801/@43.0778605,-70.7671237,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c1408325d:0x9e75127fd100c165!2m2!1d-70.7573015!2d43.0776031!3e2?hl=en&authuser=0",
+        },
     },
     {
         name: 'Ristorante Massimo',
@@ -920,6 +936,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Mr+Kim's,+107+State+Street,+Portsmouth,+NH+03801/@43.0774206,-70.7657736,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf30349ef54b:0x9d5896499169afd7!2m2!1d-70.7547439!2d43.0770801!3e2?hl=en&authuser=0",
         },
     }, {
+        name: 'Wrap Shack',
+        location: "https://www.google.com/maps/place/Wrap+Shack/@43.0730745,-70.769196,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bfd3673272cd:0x81c4ca7ccce698e2!8m2!3d43.0730745!4d-70.767002?hl=en&authuser=0",
+        logo: 'wrapshacklogo.jpg',
+        summary: "Food truck with deliscious wraps",
+        pages: {
+            website: 'https://www.wrapshackportsmouth.com/?fbclid=IwAR3L0MNOmUNrmAEEa4AT57kpfG0_lqsF4ubTc0lqsEELsK9dTLfOPfjeSeA',
+            facebook: 'https://www.facebook.com/wrapshackportsmouth',
+            yelp: "",
+            tripadvisor: "",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.9',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Wrap+Shack,+361+Islington+St,+Portsmouth,+NH+03801/@43.0727256,-70.7649809,16z/data=!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfd3673272cd:0x81c4ca7ccce698e2!2m2!1d-70.767002!2d43.0730745!3e2?hl=en&authuser=0",
+        },
+    },{
         name: 'STREET',
         location: 'https://www.google.com/maps/place/STREET+eat%2Fdrink+360/@43.069034,-70.7754298,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b1bc0b6f7:0x499f50d15ba39a85!8m2!3d43.069034!4d-70.7732358?hl=en&authuser=0',
         logo: 'streetlogo.jpg',
@@ -1060,10 +1092,8 @@ let restaurantData = [{
 // spring hill tavern
 // izzy
 // the striker
-// cup of joe
 // tuscan Market 
 // popovers 
-// bennetts 
 // green room 
 // mr wish 
 // the goods
@@ -1074,24 +1104,31 @@ let restaurantData = [{
 // luigis
 // white Heron 
 // breadbox 
-// wrap shack 
 // Red rover creamery
 
-// offerings: {
-//     drinks: {
-//         coffee: "",
-//         beer: {
-//             bottle: "",
-//             draft: "",
-//             taps: "",
-//         },
-//         wine: "",
-//         cocktails: "",
-//     },
-//     food: {
-
-//     }
-// }
+let tempOfferings = { 
+    offerings: {
+    drinks: {
+        coffee: "",
+        beer: {
+            bottles: "",
+            draft: "",
+            tapnumber: "",
+        },
+        wine: "",
+        cocktails: "",
+    },
+    food: {
+        icecream: "",
+    },
+    genre: {
+        american: "",
+        french: "",
+        asian: "",
+        mexican: "",
+    }
+}
+}
 
 
 
