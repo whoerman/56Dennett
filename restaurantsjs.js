@@ -15,8 +15,7 @@ let restaurantData = [{
             distance: '0.3',
             directions: 'https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Barrio,+Vaughan+Street,+Portsmouth,+NH/@43.0797615,-70.7677705,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf098ccd0a59:0x638419366b50e4f6!2m2!1d-70.7629833!2d43.0799994!3e2',
         },
-    },
-    {
+    }, {
         name: 'Rooftop at Envio',
         location: 'https://www.google.com/maps/place/Rooftop+at+The+Envio/@43.0797459,-70.764615,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9ad89e7f4d:0x5b17ccd8a59d5b4c!8m2!3d43.0797459!4d-70.762421?hl=en&authuser=0',
         logo: 'enviologo.jpg',
@@ -32,8 +31,7 @@ let restaurantData = [{
             distance: '0.3',
             directions: 'https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Rooftop+at+The+Envio,+Vaughan+Street,+Portsmouth,+NH/@43.0797615,-70.7674894,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9ad89e7f4d:0x5b17ccd8a59d5b4c!2m2!1d-70.762421!2d43.0797459!3e2',
         }
-    },
-    {
+    }, {
         name: 'Green Elephant',
         location: 'https://www.google.com/maps/place/Green+Elephant+Vegetarian+Bistro+%26+Bar/@43.0781121,-70.7635467,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0bba1d0bf1:0xcc537bb0eead071d!8m2!3d43.0781121!4d-70.7613527?hl=en&authuser=0',
         logo: 'greenelephantlogo.jpg',
@@ -49,8 +47,7 @@ let restaurantData = [{
             distance: '0.4',
             directions: 'https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Green+Elephant+Vegetarian+Bistro+%26+Bar,+Portwalk+Place,+Portsmouth,+NH/@43.0789114,-70.7669103,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0bba1d0bf1:0xcc537bb0eead071d!2m2!1d-70.7613527!2d43.0781121!3e2',
         }
-    },
-    {
+    }, {
         name: 'BRGR Bar',
         location: 'https://www.google.com/maps/place/BRGR+Bar/@43.078236,-70.7632962,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0bc9ecb8db:0x5e70b41df507e3a2!8m2!3d43.078236!4d-70.7611022?hl=en&authuser=0',
         logo: 'brgrlogo.jpg',
@@ -338,7 +335,7 @@ let restaurantData = [{
             distance: '0.6',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Lazy+Jack's,+54+Ceres+St,+Portsmouth,+NH+03801/@43.0788887,-70.7672918,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0eafab1a3f:0xc8bc7e790c650043!2m2!1d-70.7579116!2d43.0790909!3e2?hl=en&authuser=0",
         },
-    },{
+    }, {
         name: 'La Maison Navarre',
         location: "https://www.google.com/maps/place/La+Maison+Navarre+-+Pastry,+Bistro,+Wine+Bar/@43.0763444,-70.762344,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89e2bf0b0d4864c1:0x161bc7565dc26839!2sLa+Maison+Navarre+-+Pastry,+Bistro,+Wine+Bar!8m2!3d43.0763444!4d-70.76015!10e1!3m4!1s0x89e2bf0b0d4864c1:0x161bc7565dc26839!8m2!3d43.0763444!4d-70.76015?hl=en&authuser=0",
         logo: 'lamaissonnaveerelogo.jpg',
@@ -386,8 +383,7 @@ let restaurantData = [{
             distance: '0.7',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Cava,+Commercial+Alley,+Portsmouth,+NH/@43.0778605,-70.7669477,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c13f0bedf:0xa47d27fcadaca02b!2m2!1d-70.7569528!2d43.0776583!3e2",
         }
-    },
-    {
+    }, {
         name: 'Durbar Square',
         location: 'https://www.google.com/maps/place/Durbar+Square+Restaurant/@43.0773378,-70.759771,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c6da6ed89:0x836ad8e345857cf3!8m2!3d43.0773378!4d-70.757577?hl=en&authuser=0',
         logo: 'durbarlogo.jpg',
@@ -548,6 +544,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Library+Restaurant,+State+Street,+Portsmouth,+NH/@43.0774206,-70.7679161,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0b469763ad:0x23bfc651b711a2c8!2m2!1d-70.7594992!2d43.0752713!3e2",
         }
     }, {
+        name: 'Tuscan Market',
+        location: "https://www.google.com/maps/place/Tuscan+Market/@43.0770389,-70.7594951,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2c07ecdcb35c5:0x5fcf3eba0f640928!8m2!3d43.0770389!4d-70.7573011?hl=en&authuser=0",
+        logo: 'tuscanlogo.jpg',
+        summary: "Italian fare & counter-style supplies",
+        pages: {
+            website: 'http://www.tuscanbrands.com/Market/Portsmouth/',
+            facebook: 'https://www.facebook.com/pages/Tuscan%20Market/475454349946783/',
+            yelp: "https://www.yelp.com/biz/tuscan-market-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d21184351-Reviews-Tuscan_Market-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.7',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Tuscan+Market,+14+Market+Square,+Portsmouth,+NH+03801/@43.0781107,-70.7671235,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2c07ecdcb35c5:0x5fcf3eba0f640928!2m2!1d-70.7573011!2d43.0770389!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: 'Portsmouth Gas Light',
         location: 'https://www.google.com/maps/place/Portsmouth+Gas+Light+Co./@43.0780983,-70.7599149,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c1b99f18d:0x325e9379facc0c8d!8m2!3d43.0780983!4d-70.7577209?hl=en&authuser=0',
         logo: 'gaslightlogo.jpg',
@@ -627,8 +639,7 @@ let restaurantData = [{
             distance: '0.7',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Pink+Bamboo+Hot+Pot+Cafe,+Penhallow+Street,+Portsmouth,+NH/@43.0786386,-70.7669636,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c22707529:0x1d9bc313e2169ba5!2m2!1d-70.7571124!2d43.0781143!3e2?hl=en&authuser=0",
         }
-    },
-    {
+    }, {
         name: 'Caffe Kilim',
         location: "https://www.google.com/maps/place/Caffe+Kilim/@43.0744444,-70.7660746,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf27eed61ff7:0x44c5d5dc4d1286ef!8m2!3d43.0744444!4d-70.7638806?hl=en&authuser=0",
         logo: 'kilimlogo.jpg',
@@ -644,8 +655,7 @@ let restaurantData = [{
             distance: '0.7',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Caffe+Kilim,+163+Islington+St,+Portsmouth,+NH+03801/@43.0771864,-70.7688886,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf27eed61ff7:0x44c5d5dc4d1286ef!2m2!1d-70.7638806!2d43.0744444!3e2?hl=en&authuser=0",
         },
-    },
-    {
+    }, {
         name: 'Elephantine Bakery',
         location: "https://www.google.com/maps/place/Elephantine+Bakery/@43.0776717,-70.759017,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf98e03dbc19:0x18152beaa98a5804!8m2!3d43.0776717!4d-70.756823?hl=en&authuser=0",
         logo: 'elephatinelogo.jpg',
@@ -661,7 +671,7 @@ let restaurantData = [{
             distance: '0.7',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Elephantine+Bakery,+10+Commercial+Alley+%232,+Portsmouth,+NH+03801/@43.077824,-70.7668845,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf98e03dbc19:0x18152beaa98a5804!2m2!1d-70.756823!2d43.0776717!3e2?hl=en&authuser=0",
         },
-    },{
+    }, {
         name: "The Work's",
         location: "https://www.google.com/maps/place/The+Works+Bakery+Cafe/@43.0769246,-70.7606031,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c78ff0989:0x82132d53117b8b03!8m2!3d43.0769246!4d-70.7584091?hl=en&authuser=0",
         logo: 'theworkslogo.jpg',
@@ -693,8 +703,55 @@ let restaurantData = [{
             distance: '0.7',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Cup+of+Joe,+31+Market+St,+Portsmouth,+NH+03801/@43.0778605,-70.7671237,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c1408325d:0x9e75127fd100c165!2m2!1d-70.7573015!2d43.0776031!3e2?hl=en&authuser=0",
         },
-    },
-    {
+    }, {
+        name: 'The Striker',
+        location: "https://www.google.com/maps/place/Dolphin+Striker/@43.0784088,-70.7595356,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c1e61db1d:0x73d1345984d212d!8m2!3d43.0784088!4d-70.7573416?hl=en&authuser=0",
+        logo: 'strikerlogo.jpg',
+        summary: "Seafood-centric fare & historic feel",
+        pages: {
+            website: 'https://dolphinstriker.com/',
+            facebook: 'https://www.facebook.com/thedolphinstriker',
+            yelp: "https://www.yelp.com/biz/the-striker-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d4476278-Reviews-Dolphine_Striker-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.7',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Dolphin+Striker,+15+Bow+St,+Portsmouth,+NH+03801/@43.0778605,-70.7670889,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c1e61db1d:0x73d1345984d212d!2m2!1d-70.7573416!2d43.0784088!3e2?hl=en&authuser=0",
+        },
+    },  {
+        name: "Moe's Italian Sandwiches",
+        location: "https://www.google.com/maps/place/Moe's+Italian+Sandwiches/@43.0773115,-70.7592517,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c6ab0f4c9:0x97d483bde5d34c35!8m2!3d43.0773115!4d-70.7570577?hl=en&authuser=0",
+        logo: 'moelogo.jpg',
+        summary: "Classic Italian subs counter-style",
+        pages: {
+            website: 'https://www.moesitaliansandwiches.com/',
+            facebook: 'https://www.facebook.com/moesitaliansandwiches',
+            yelp: "https://www.yelp.com/biz/moes-italian-sandwiches-of-portsmouth-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d2329269-Reviews-Moe_s_Italian_Sandwiches-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.7',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Moe's+Italian+Sandwiches,+22+Daniel+St,+Portsmouth,+NH+03801/@43.0781107,-70.7669899,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c6ab0f4c9:0x97d483bde5d34c35!2m2!1d-70.7570577!2d43.0773115!3e2?hl=en&authuser=0",
+        },
+    }, {
+        name: 'Popovers on the Square',
+        location: "https://www.google.com/maps/place/Popovers+On+the+Square/@43.0766044,-70.7602875,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c799a0dc3:0x22f66f7dfa37704c!8m2!3d43.0766044!4d-70.7580935?hl=en&authuser=0",
+        logo: 'popoverlogo.jpg',
+        summary: "Cozy bakery.cafe for light fare and drinks",
+        pages: {
+            website: 'https://www.popoversonthesquare.com/',
+            facebook: 'https://www.facebook.com/PopoversPortsmouthNH',
+            yelp: "https://www.yelp.com/biz/popovers-on-the-square-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d872285-Reviews-Popovers_On_The_Square-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.7',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Popovers+On+the+Square,+8+Congress+Street,+Portsmouth,+NH+03801/@43.077824,-70.7672364,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c799a0dc3:0x22f66f7dfa37704c!2m2!1d-70.7580935!2d43.0766044!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: 'Ristorante Massimo',
         location: "https://www.google.com/maps/place/Massimo's+-+Ristorante+Massimo/@43.0771685,-70.7583364,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c3818b215:0xf0bf1bca27cab65!8m2!3d43.0771685!4d-70.7561424?hl=en&authuser=0",
         logo: 'massimologo.jpg',
@@ -838,7 +895,7 @@ let restaurantData = [{
             distance: '0.8',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Ceres+Bakery,+51+Penhallow+St,+Portsmouth,+NH+03801/@43.0776389,-70.7664968,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c48125f71:0xcf171162e48d7b94!2m2!1d-70.7560477!2d43.0770263!3e2?hl=en&authuser=0",
         },
-    },  {
+    }, {
         name: 'Kaffee Vonsolln',
         location: "https://www.google.com/maps/place/Kaffee+Vonsolln/@43.07735,-70.7581357,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0dcd4cf84b:0xe712fbf47129d08a!8m2!3d43.07735!4d-70.7559417?hl=en&authuser=0",
         logo: 'kaffeevonsollnlogo.jpg',
@@ -854,7 +911,23 @@ let restaurantData = [{
             distance: '0.8',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Kaffee+Vonsolln,+79+Daniel+St,+Portsmouth,+NH+03801/@43.0778605,-70.7664438,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0dcd4cf84b:0xe712fbf47129d08a!2m2!1d-70.7559417!2d43.07735!3e2?hl=en&authuser=0",
         },
-    },{
+    }, {
+        name: "Ceo's Gelato Bistro",
+        location: "https://www.google.com/maps/place/Ceo's+Gelato+Bistro/@43.0762146,-70.7592606,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c601443bd:0xce08ba72698f6a77!8m2!3d43.0762146!4d-70.7570666?hl=en&authuser=0",
+        logo: 'ceologo.jpg',
+        summary: "Counter for many gelato flavors",
+        pages: {
+            website: 'https://ceos-gelato-bistro.square.site/',
+            facebook: 'https://www.facebook.com/ceosgelato',
+            yelp: "https://www.yelp.com/biz/ceos-gelato-bistro-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d10636934-Reviews-Ceo_s_Gelato_Bistro-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.8',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Ceo's+Gelato+Bistro,+43+Pleasant+St,+Portsmouth,+NH+03801/@43.0776389,-70.7670063,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c601443bd:0xce08ba72698f6a77!2m2!1d-70.7570666!2d43.0762146!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: 'Cure',
         location: 'https://www.google.com/maps/place/Cure/@43.076507,-70.758262,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c8ad4500b:0xdcb9e05c8b2781af!8m2!3d43.076507!4d-70.756068?hl=en&authuser=0',
         logo: 'curelogo.jpg',
@@ -918,8 +991,7 @@ let restaurantData = [{
             distance: '0.9',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Domo+Japanese+Restaurant,+State+Street,+Portsmouth,+NH/@43.0774206,-70.7656595,16z/data=!3m2!4b1!5s0x89e2bf9b9ce6beaf:0x290ab22deaff8c29!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0dc6e22189:0x32161f7e829be9b9!2m2!1d-70.754373!2d43.0769735!3e2?hl=en&authuser=0",
         }
-    },
-    {
+    }, {
         name: "Mr Kim's",
         location: "https://www.google.com/maps/place/Mr+Kim's/@43.0770801,-70.7569379,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf30349ef54b:0x9d5896499169afd7!8m2!3d43.0770801!4d-70.7547439?hl=en&authuser=0",
         logo: 'mrkimslogo.jpg',
@@ -951,7 +1023,7 @@ let restaurantData = [{
             distance: '0.9',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Wrap+Shack,+361+Islington+St,+Portsmouth,+NH+03801/@43.0727256,-70.7649809,16z/data=!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfd3673272cd:0x81c4ca7ccce698e2!2m2!1d-70.767002!2d43.0730745!3e2?hl=en&authuser=0",
         },
-    },{
+    }, {
         name: 'STREET',
         location: 'https://www.google.com/maps/place/STREET+eat%2Fdrink+360/@43.069034,-70.7754298,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b1bc0b6f7:0x499f50d15ba39a85!8m2!3d43.069034!4d-70.7732358?hl=en&authuser=0',
         logo: 'streetlogo.jpg',
@@ -1082,18 +1154,13 @@ let restaurantData = [{
     },
 ];
 
-
-// Ceo's Gelato
-// Mos 
+ 
 // tj
 // danieal street tavern
 // harpoon williy
 // annabelle   
 // spring hill tavern
 // izzy
-// the striker
-// tuscan Market 
-// popovers 
 // green room 
 // mr wish 
 // the goods
@@ -1106,28 +1173,28 @@ let restaurantData = [{
 // breadbox 
 // Red rover creamery
 
-let tempOfferings = { 
+let tempOfferings = {
     offerings: {
-    drinks: {
-        coffee: "",
-        beer: {
-            bottles: "",
-            draft: "",
-            tapnumber: "",
+        drinks: {
+            coffee: "",
+            beer: {
+                bottles: "",
+                draft: "",
+                tapnumber: "",
+            },
+            wine: "",
+            cocktails: "",
         },
-        wine: "",
-        cocktails: "",
-    },
-    food: {
-        icecream: "",
-    },
-    genre: {
-        american: "",
-        french: "",
-        asian: "",
-        mexican: "",
+        food: {
+            icecream: "",
+        },
+        genre: {
+            american: "",
+            french: "",
+            asian: "",
+            mexican: "",
+        }
     }
-}
 }
 
 
