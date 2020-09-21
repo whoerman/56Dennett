@@ -25,7 +25,7 @@ let restaurantData = [{
             website: 'https://www.rooftopportsmouth.com/',
             facebook: 'https://www.facebook.com/rooftopportsmouth',
             yelp: 'https://www.yelp.com/biz/rooftop-at-the-envio-portsmouth-2?osq=rooftop+at+envio',
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d20115690-Reviews-Rooftop_at_The_Envio-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d20115690-Reviews-Rooftop_at_The_Envio-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -44,7 +44,7 @@ let restaurantData = [{
             yelp: 'https://www.yelp.com/biz/green-elephant-portsmouth',
             tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d8657507-Reviews-Green_Elephant-Portsmouth_New_Hampshire.html',
         },
-         dennett: {
+        dennett: {
             mode: 'Walkable',
             distance: '0.4',
             directions: 'https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Green+Elephant+Vegetarian+Bistro+%26+Bar,+Portwalk+Place,+Portsmouth,+NH/@43.0789114,-70.7669103,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0bba1d0bf1:0xcc537bb0eead071d!2m2!1d-70.7613527!2d43.0781121!3e2',
@@ -59,7 +59,7 @@ let restaurantData = [{
             website: 'https://www.brgr-bar.com/',
             facebook: 'https://www.facebook.com/BRGRBAR',
             yelp: "https://www.yelp.com/biz/brgr-bar-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d6278438-Reviews-BRGR_Bar-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d6278438-Reviews-BRGR_Bar-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -75,7 +75,7 @@ let restaurantData = [{
             website: 'https://www.dosamigosburritos.com/',
             facebook: 'https://www.facebook.com/DosAmigosBurritos',
             yelp: "https://www.yelp.com/biz/dos-amigos-burritos-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d835641-Reviews-Dos_Amigos_Burritos-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d835641-Reviews-Dos_Amigos_Burritos-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -91,7 +91,7 @@ let restaurantData = [{
             website: 'https://shalimarindia.com/',
             facebook: 'https://www.facebook.com/Shalimar-India-in-Portsmouth-NH-03801-211030320491',
             yelp: "https://www.yelp.com/biz/shalimar-india-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412842-Reviews-Shalimar_India_Restaurant-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412842-Reviews-Shalimar_India_Restaurant-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -107,7 +107,7 @@ let restaurantData = [{
             website: 'https://www.eartheaglebrewings.com/',
             facebook: 'https://www.facebook.com/eartheaglebrewings',
             yelp: "https://www.yelp.com/biz/earth-eagle-brewings-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d6596756-Reviews-Earth_Eagle_Brewings-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d6596756-Reviews-Earth_Eagle_Brewings-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -123,7 +123,7 @@ let restaurantData = [{
             website: 'https://www.row34.com/',
             facebook: 'https://www.facebook.com/Row34NH',
             yelp: "https://www.yelp.com/biz/row-34-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d8148046-Reviews-Row_34-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d8148046-Reviews-Row_34-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -139,7 +139,7 @@ let restaurantData = [{
             website: 'http://www.bridgestreetbistrot.com/',
             facebook: 'https://www.facebook.com/Bridge-Street-Bistrot-Wine-Bar-116311568396226',
             yelp: "https://www.yelp.com/biz/bridge-street-bistrot-and-wine-bar-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d4452253-Reviews-Bridge_Street_Bistrot_Wine_Bar-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d4452253-Reviews-Bridge_Street_Bistrot_Wine_Bar-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -155,7 +155,7 @@ let restaurantData = [{
             website: 'https://lacarretamex.com/portsmouth/',
             facebook: 'https://www.facebook.com/La-Carreta-Portsmouth-1361120723928411',
             yelp: "https://www.yelp.com/biz/la-carreta-restaurante-mexicano-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d17471724-Reviews-La_Carreta-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d17471724-Reviews-La_Carreta-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -171,7 +171,7 @@ let restaurantData = [{
             website: 'https://www.jumpinjays.com/',
             facebook: 'https://www.facebook.com/jumpinjays',
             yelp: "https://www.yelp.com/biz/jumpin-jays-fish-cafe-portsmouth-2",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412840-Reviews-Jumpin_Jay_s_Fish_Cafe-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412840-Reviews-Jumpin_Jay_s_Fish_Cafe-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -187,7 +187,7 @@ let restaurantData = [{
             website: 'https://thefriendlytoast.com/location/portsmouth-nh/',
             facebook: 'https://www.facebook.com/TheFriendlyToastPortsmouth',
             yelp: "https://www.yelp.com/biz/the-friendly-toast-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d509599-Reviews-The_Friendly_Toast-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d509599-Reviews-The_Friendly_Toast-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -203,7 +203,7 @@ let restaurantData = [{
             website: 'https://flatbreadcompany.com/locations/portsmouth-nh/',
             facebook: 'https://www.facebook.com/FlatbreadPortsmouth',
             yelp: "https://www.yelp.com/biz/flatbread-portsmouth-2",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d616656-Reviews-Flatbread_Company-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d616656-Reviews-Flatbread_Company-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -219,7 +219,7 @@ let restaurantData = [{
             website: 'https://www.cafe-mediterraneo.com/',
             facebook: 'https://www.facebook.com/Cafe-Mediterraneo-115135168575391',
             yelp: "https://www.yelp.com/biz/cafe-mediterraneo-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412832-Reviews-Cafe_Mediterraneo-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412832-Reviews-Cafe_Mediterraneo-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -235,7 +235,7 @@ let restaurantData = [{
             website: 'https://www.thirstymoosetaphouse.com/portsmouth/',
             facebook: 'https://www.facebook.com/ThirstyMooseTapHouse',
             yelp: "https://www.yelp.com/biz/thirsty-moose-taphouse-portsmouth-2",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3381540-Reviews-Thirsty_Moose_Taphouse_Portsmouth-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3381540-Reviews-Thirsty_Moose_Taphouse_Portsmouth-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -251,7 +251,7 @@ let restaurantData = [{
             website: 'https://franklinrestaurant.com/',
             facebook: 'https://www.facebook.com/thefranklinnh',
             yelp: "https://www.yelp.com/biz/the-franklin-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d8537521-Reviews-The_Franklin-Portsmouth_New_Hampshire.html',   
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d8537521-Reviews-The_Franklin-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -267,7 +267,7 @@ let restaurantData = [{
             website: 'https://goatnh.com/portsmouth/',
             facebook: 'https://www.facebook.com/goatbarportsmouth',
             yelp: "https://www.yelp.com/biz/the-goat-portsmouth-2",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d13703021-Reviews-The_Goat-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d13703021-Reviews-The_Goat-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -283,7 +283,7 @@ let restaurantData = [{
             website: 'http://www.wickedgoodsoup.com/',
             facebook: 'https://www.facebook.com/souperynh',
             yelp: "https://www.yelp.com/biz/the-soupery-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d6524175-Reviews-The_Soupery-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d6524175-Reviews-The_Soupery-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -299,7 +299,7 @@ let restaurantData = [{
             website: 'http://www.thedistrictnh.com/',
             facebook: 'https://www.facebook.com/TheDistrictNH',
             yelp: "https://www.yelp.com/biz/the-district-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2358983-Reviews-The_District-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2358983-Reviews-The_District-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -315,7 +315,7 @@ let restaurantData = [{
             website: 'https://www.wilderportsmouth.com/',
             facebook: 'https://www.facebook.com/wilderportsmouth',
             yelp: "https://www.yelp.com/biz/the-wilder-portsmouth-2",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d13342659-Reviews-The_Wilder-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d13342659-Reviews-The_Wilder-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -331,7 +331,7 @@ let restaurantData = [{
             website: 'https://lazyjackswateringhole.com/',
             facebook: 'https://www.facebook.com/lazyjackswateringhole',
             yelp: "https://www.yelp.com/biz/lazy-jacks-portsmouth",
-            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d8439450-Reviews-Lazy_Jacks-Portsmouth_New_Hampshire.html",    
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d8439450-Reviews-Lazy_Jacks-Portsmouth_New_Hampshire.html",
         },
         dennett: {
             mode: 'Walkable',
@@ -339,6 +339,38 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Lazy+Jack's,+54+Ceres+St,+Portsmouth,+NH+03801/@43.0788887,-70.7672918,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0eafab1a3f:0xc8bc7e790c650043!2m2!1d-70.7579116!2d43.0790909!3e2?hl=en&authuser=0",
         },
     },{
+        name: 'La Maison Navarre',
+        location: "https://www.google.com/maps/place/La+Maison+Navarre+-+Pastry,+Bistro,+Wine+Bar/@43.0763444,-70.762344,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x89e2bf0b0d4864c1:0x161bc7565dc26839!2sLa+Maison+Navarre+-+Pastry,+Bistro,+Wine+Bar!8m2!3d43.0763444!4d-70.76015!10e1!3m4!1s0x89e2bf0b0d4864c1:0x161bc7565dc26839!8m2!3d43.0763444!4d-70.76015?hl=en&authuser=0",
+        logo: 'lamaissonnaveerelogo.jpg',
+        summary: "French fare, wine & macarons",
+        pages: {
+            website: 'http://www.mnpastry.com/',
+            facebook: 'https://www.facebook.com/La-Maison-Navarre-981397091882666',
+            yelp: "https://www.yelp.com/biz/la-maison-navarre-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d8527226-Reviews-La_Maison_Navarre-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.6',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/La+Maison+Navarre+-+Pastry,+Bistro,+Wine+Bar,+121+Congress+Street,+Portsmouth,+NH+03801/@43.0778605,-70.7682528,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0b0d4864c1:0x161bc7565dc26839!2m2!1d-70.76015!2d43.0763444!3e2?hl=en&authuser=0",
+        },
+    }, {
+        name: "Bennett's Sandwich Shop",
+        location: "https://www.google.com/maps/place/Bennett's+Sandwich+Shop/@43.0767,-70.760949,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b8142140f:0x6562e6c34d4e1e03!8m2!3d43.0767!4d-70.758755?hl=en&authuser=0",
+        logo: 'bennettslogo.jpg',
+        summary: "Award Winning Sandwiches & fresh Maine lobby rolls! ",
+        pages: {
+            website: 'https://www.bennettssandwichshop.com/',
+            facebook: 'https://www.facebook.com/Bennettssandwichshop',
+            yelp: "https://www.yelp.com/biz/bennetts-sandwich-shop-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d8435306-Reviews-Bennett_s_Sandwich_Shop-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.6',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Bennett's+Sandwich+Shop,+41+Congress+Street,+Portsmouth,+NH+03801/@43.0778605,-70.7678012,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0b8142140f:0x6562e6c34d4e1e03!2m2!1d-70.758755!2d43.0767!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: 'Cava',
         location: 'https://www.google.com/maps/place/Cava/@43.0776583,-70.7591468,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c13f0bedf:0xa47d27fcadaca02b!8m2!3d43.0776583!4d-70.7569528?hl=en&authuser=0',
         logo: 'cavalogo.jpg',
@@ -347,7 +379,7 @@ let restaurantData = [{
             website: 'https://www.cavatapasandwinebar.com/',
             facebook: 'https://www.facebook.com/CavaTapasAndWineBar',
             yelp: "https://www.yelp.com/biz/cava-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1509002-Reviews-Cava-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1509002-Reviews-Cava-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -364,7 +396,7 @@ let restaurantData = [{
             website: 'http://www.durbarsquareportsmouth.com/',
             facebook: 'https://www.facebook.com/durbarsquarerestaurant1',
             yelp: 'https://www.yelp.com/biz/durbar-square-restaurant-portsmouth?osq=durbar+squaare',
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2413812-Reviews-Durbar_Square_Restaurant-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2413812-Reviews-Durbar_Square_Restaurant-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -380,7 +412,7 @@ let restaurantData = [{
             website: 'https://www.blacktrumpetbistro.com/',
             facebook: 'https://www.facebook.com/blacktrumpet',
             yelp: "https://www.yelp.com/biz/black-trumpet-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d672234-Reviews-Black_Trumpet_Bistro-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d672234-Reviews-Black_Trumpet_Bistro-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -396,7 +428,7 @@ let restaurantData = [{
             website: 'https://www.surfseafood.com/',
             facebook: 'https://www.facebook.com/SurfPortsmouthNH',
             yelp: "https://www.yelp.com/biz/surf-restaurant-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2199055-Reviews-Surf-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2199055-Reviews-Surf-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -412,7 +444,7 @@ let restaurantData = [{
             website: 'https://riverhouse53bow.com/',
             facebook: 'https://www.facebook.com/RiverHousePortsmouth',
             yelp: "https://www.yelp.com/biz/the-river-house-portsmouth-5",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1556896-Reviews-The_River_House_Restaurant-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1556896-Reviews-The_River_House_Restaurant-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -428,7 +460,7 @@ let restaurantData = [{
             website: 'https://moxyrestaurant.com/',
             facebook: 'https://www.facebook.com/moxyrestaurant',
             yelp: "https://www.yelp.com/biz/moxy-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3347983-Reviews-Moxy-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3347983-Reviews-Moxy-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walakble',
@@ -444,7 +476,7 @@ let restaurantData = [{
             website: 'https://www.rudisportsmouth.com/',
             facebook: 'https://www.facebook.com/rudisportsmouth',
             yelp: "https://www.yelp.com/biz/rudis-portsmouth-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d675129-Reviews-Rudi_s_Portsmouth-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d675129-Reviews-Rudi_s_Portsmouth-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -460,7 +492,7 @@ let restaurantData = [{
             website: 'http://oldferrylanding.com/',
             facebook: 'https://www.facebook.com/Old-Ferry-Landing-167224509050',
             yelp: "https://www.yelp.com/biz/old-ferry-landing-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412895-Reviews-Old_Ferry_Landing-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412895-Reviews-Old_Ferry_Landing-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkalble',
@@ -476,7 +508,7 @@ let restaurantData = [{
             website: 'https://portsmouthbrewery.com/',
             facebook: 'https://www.facebook.com/Portsmouthbrewery',
             yelp: "https://www.yelp.com/biz/the-portsmouth-brewery-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412805-Reviews-Portsmouth_Brewery-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412805-Reviews-Portsmouth_Brewery-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -492,7 +524,7 @@ let restaurantData = [{
             website: 'http://www.portsmouthoarhouse.com/',
             facebook: 'https://www.facebook.com/OarHouseRestaurant',
             yelp: "https://www.yelp.com/biz/the-oar-house-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d449136-Reviews-The_Oar_House-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d449136-Reviews-The_Oar_House-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -508,7 +540,7 @@ let restaurantData = [{
             website: 'https://libraryrestaurant.com/',
             facebook: 'https://www.facebook.com/libraryrestaurant',
             yelp: "https://www.yelp.com/biz/library-restaurant-at-the-rockingham-house-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d544207-Reviews-The_Library-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d544207-Reviews-The_Library-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -524,7 +556,7 @@ let restaurantData = [{
             website: 'https://www.portsmouthgaslight.com/',
             facebook: 'https://www.facebook.com/portsmouthgaslightco',
             yelp: "https://www.yelp.com/biz/portsmouth-gas-light-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d459054-Reviews-Portsmouth_Gas_Light_Co-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d459054-Reviews-Portsmouth_Gas_Light_Co-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -540,7 +572,7 @@ let restaurantData = [{
             website: 'https://www.martingalewharf.com/',
             facebook: 'https://www.facebook.com/martingale.wharf.restaurant',
             yelp: "https://www.yelp.com/biz/martingale-wharf-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3397212-Reviews-Martingale_Wharf_Restaurant-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3397212-Reviews-Martingale_Wharf_Restaurant-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -556,7 +588,7 @@ let restaurantData = [{
             website: 'https://www.thekitchenportsmouth.com/',
             facebook: 'https://www.facebook.com/TheKitchenNH',
             yelp: "https://www.yelp.com/biz/the-kitchen-eatery-and-catering-portsmouth-2",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2155492-Reviews-The_Kitchen-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2155492-Reviews-The_Kitchen-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -572,7 +604,7 @@ let restaurantData = [{
             website: 'http://www.pocosbowstreetcantina.com/',
             facebook: 'https://www.facebook.com/pocosnh',
             yelp: "https://www.yelp.com/biz/pocos-bow-street-cantina-portsmouth-2",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412925-Reviews-Poco_s_Bow_Street_Cantina-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412925-Reviews-Poco_s_Bow_Street_Cantina-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -588,7 +620,7 @@ let restaurantData = [{
             website: 'http://www.pinkbamboocafe.com/',
             facebook: 'https://www.facebook.com/PinkBambooHotPotCafe',
             yelp: "https://www.yelp.com/biz/pink-bamboo-hot-pot-cafe-portsmouth-2",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2251850-Reviews-Pink_Bamboo-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d2251850-Reviews-Pink_Bamboo-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -605,7 +637,7 @@ let restaurantData = [{
             website: 'https://www.caffekilim.com/',
             facebook: 'https://www.facebook.com/Caffe-Kilim-and-Market-82880680383',
             yelp: "https://www.yelp.com/biz/caffe-kilim-and-market-portsmouth",
-            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d412928-Reviews-Caffe_Kilim-Portsmouth_New_Hampshire.html",    
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d412928-Reviews-Caffe_Kilim-Portsmouth_New_Hampshire.html",
         },
         dennett: {
             mode: 'Walkable',
@@ -622,12 +654,28 @@ let restaurantData = [{
             website: 'https://www.elephantinebakery.com/',
             facebook: 'https://www.facebook.com/elephantinebakery',
             yelp: "https://www.yelp.com/biz/elephantine-bakery-portsmouth",
-            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d15660734-Reviews-Elephantine_Bakery-Portsmouth_New_Hampshire.html",    
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d15660734-Reviews-Elephantine_Bakery-Portsmouth_New_Hampshire.html",
         },
         dennett: {
             mode: 'Walkable',
             distance: '0.7',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Elephantine+Bakery,+10+Commercial+Alley+%232,+Portsmouth,+NH+03801/@43.077824,-70.7668845,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf98e03dbc19:0x18152beaa98a5804!2m2!1d-70.756823!2d43.0776717!3e2?hl=en&authuser=0",
+        },
+    },{
+        name: "The Work's",
+        location: "https://www.google.com/maps/place/The+Works+Bakery+Cafe/@43.0769246,-70.7606031,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c78ff0989:0x82132d53117b8b03!8m2!3d43.0769246!4d-70.7584091?hl=en&authuser=0",
+        logo: 'theworkslogo.jpg',
+        summary: "Cafe with breakfast, sandwiches & coffee",
+        pages: {
+            website: 'https://workscafe.com/locations/portsmouth/',
+            facebook: 'https://www.facebook.com/The-Works-Bakery-Cafe-604103483011520',
+            yelp: "https://www.yelp.com/biz/the-works-bakery-cafe-portsmouth?osq=The+Works+Bakery+%26+Cafe",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d2283234-Reviews-The_Works_Bakery_Cafe-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.7',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Works+Bakery+Cafe,+9+Congress+Street,+Portsmouth,+NH+03801/@43.0778605,-70.7676224,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c78ff0989:0x82132d53117b8b03!2m2!1d-70.7584091!2d43.0769246!3e2?hl=en&authuser=0",
         },
     },
     {
@@ -639,7 +687,7 @@ let restaurantData = [{
             website: 'https://ristorantemassimo.com/',
             facebook: 'https://www.facebook.com/RistoranteMassimo',
             yelp: 'https://www.yelp.com/biz/ristorante-massimo-portsmouth?osq=massimo',
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d659447-Reviews-Ristorante_Massimo-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d659447-Reviews-Ristorante_Massimo-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -655,7 +703,7 @@ let restaurantData = [{
             website: 'https://www.5thaibistro.com/',
             facebook: 'https://www.facebook.com/5ThaiBistro',
             yelp: 'https://www.yelp.com/biz/5-thai-bistro-portsmouth-2',
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3958086-Reviews-5_Thai_Bistro-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3958086-Reviews-5_Thai_Bistro-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -671,7 +719,7 @@ let restaurantData = [{
             website: 'https://www.peaceloveburgers.com/portsmouth',
             facebook: 'https://www.facebook.com/LexiesJoint',
             yelp: 'https://www.yelp.com/biz/lexies-joint-portsmouth',
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1891877-Reviews-Lexie_s_Joint-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1891877-Reviews-Lexie_s_Joint-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -687,7 +735,7 @@ let restaurantData = [{
             website: 'https://colbysportsmouthnh.com/',
             facebook: 'https://www.facebook.com/Colbys-Breakfast-Lunch-121804041210665',
             yelp: "https://www.yelp.com/biz/colbys-breakfast-and-lunch-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d616592-Reviews-Colby_s_Breakfast_Lunch-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d616592-Reviews-Colby_s_Breakfast_Lunch-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -703,7 +751,7 @@ let restaurantData = [{
             website: 'http://www.bookandbar.com/',
             facebook: 'https://www.facebook.com/PortsmouthBookAndBar',
             yelp: "https://www.yelp.com/biz/portsmouth-book-and-bar-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3815814-Reviews-Portsmouth_Book_and_Bar-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3815814-Reviews-Portsmouth_Book_and_Bar-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -719,7 +767,7 @@ let restaurantData = [{
             website: 'https://www.roundaboutdiner.com/',
             facebook: 'https://www.facebook.com/roundaboutdiner',
             yelp: "https://www.yelp.com/biz/roundabout-diner-and-lounge-portsmouth-6",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1791532-Reviews-The_Roundabout_Diner_Lounge-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1791532-Reviews-The_Roundabout_Diner_Lounge-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -735,7 +783,7 @@ let restaurantData = [{
             website: 'https://www.clippertavernportsmouth.com/',
             facebook: 'https://www.facebook.com/clippertavern',
             yelp: "https://www.yelp.com/biz/the-clipper-tavern-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d12397623-Reviews-The_Clipper_Tavern-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d12397623-Reviews-The_Clipper_Tavern-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -751,12 +799,44 @@ let restaurantData = [{
             website: 'https://www.facebook.com/TheHammerPubandGrille',
             facebook: 'https://www.facebook.com/TheHammerPubandGrille',
             yelp: "https://www.yelp.com/biz/the-hammer-pub-and-grille-portsmouth",
-            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d20202926-Reviews-The_Hammer_Pub_and_Grille-Portsmouth_New_Hampshire.html",    
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d20202926-Reviews-The_Hammer_Pub_and_Grille-Portsmouth_New_Hampshire.html",
         },
         dennett: {
             mode: 'Walkable',
             distance: '0.8',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Hammer+Pub+and+Grille,+49+Pleasant+St,+Portsmouth,+NH+03801/@43.0774665,-70.7670917,16z/data=!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bff63aa425dd:0x20c53ab8ec551669!2m2!1d-70.75698!2d43.0761236!3e2?hl=en&authuser=0",
+        },
+    }, {
+        name: 'Ceres Bakery',
+        location: "https://www.google.com/maps/place/Ceres+Bakery/@43.0770263,-70.7582417,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c48125f71:0xcf171162e48d7b94!8m2!3d43.0770263!4d-70.7560477?hl=en&authuser=0",
+        logo: 'ceresbakerylogo.jpg',
+        summary: "Gourmet light fare & dessert since 1980",
+        pages: {
+            website: 'https://ceresbakery.com/',
+            facebook: 'https://www.facebook.com/CeresBakeryPortsmouth',
+            yelp: "https://www.yelp.com/biz/ceres-bakery-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d820457-Reviews-Ceres_Bakery-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.8',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Ceres+Bakery,+51+Penhallow+St,+Portsmouth,+NH+03801/@43.0776389,-70.7664968,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c48125f71:0xcf171162e48d7b94!2m2!1d-70.7560477!2d43.0770263!3e2?hl=en&authuser=0",
+        },
+    },  {
+        name: 'Kaffee Vonsolln',
+        location: "https://www.google.com/maps/place/Kaffee+Vonsolln/@43.07735,-70.7581357,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0dcd4cf84b:0xe712fbf47129d08a!8m2!3d43.07735!4d-70.7559417?hl=en&authuser=0",
+        logo: 'kaffeevonsollnlogo.jpg',
+        summary: "Cozy coffee shop with German pastries",
+        pages: {
+            website: 'https://www.kaffeevonsolln.com/',
+            facebook: 'https://www.facebook.com/kaffeevonsolln',
+            yelp: "https://www.yelp.com/biz/kaffee-vonsolln-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d2294763-Reviews-Cafe_Vonsolln-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.8',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Kaffee+Vonsolln,+79+Daniel+St,+Portsmouth,+NH+03801/@43.0778605,-70.7664438,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0dcd4cf84b:0xe712fbf47129d08a!2m2!1d-70.7559417!2d43.07735!3e2?hl=en&authuser=0",
         },
     },{
         name: 'Cure',
@@ -767,7 +847,7 @@ let restaurantData = [{
             website: 'https://www.curerestaurantportsmouth.com/',
             facebook: 'https://www.facebook.com/CureRestaurant',
             yelp: 'https://www.yelp.com/biz/cure-portsmouth',
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d6453722-Reviews-Cure-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d6453722-Reviews-Cure-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -783,7 +863,7 @@ let restaurantData = [{
             website: 'https://www.raleighwinebar.com/?fbclid=IwAR2Gqmu1E_KAnDz3_q7z8tVpshkr8AnV48feDC-9PweupIjscmlnmOKoZy4',
             facebook: 'https://www.facebook.com/raleighwinebar',
             yelp: "https://www.yelp.com/biz/raleigh-wine-bar-eatery-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d13167588-Reviews-Raleigh_Wine_Bar-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d13167588-Reviews-Raleigh_Wine_Bar-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -799,7 +879,7 @@ let restaurantData = [{
             website: 'https://fezziwigs.shopsettings.com/',
             facebook: 'https://www.facebook.com/FezziwigsFoodandFountain',
             yelp: "https://www.yelp.com/biz/fezziwigs-food-and-fountain-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d12215527-Reviews-Fezziwig_s_Food_and_Fountain-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d12215527-Reviews-Fezziwig_s_Food_and_Fountain-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -815,7 +895,7 @@ let restaurantData = [{
             website: 'http://domoportsmouth.com/',
             facebook: 'https://www.facebook.com/DomoPortsmouth',
             yelp: "https://www.yelp.com/biz/domo-japanese-cuisine-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d7372572-Reviews-Domo-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d7372572-Reviews-Domo-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -832,7 +912,7 @@ let restaurantData = [{
             website: 'https://www.mrkimsrestaurant.com/',
             facebook: 'https://www.facebook.com/mrkimsrestaurant',
             yelp: "https://www.yelp.com/biz/mr-kims-portsmouth",
-            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d17691752-Reviews-Mr_Kim_s-Portsmouth_New_Hampshire.html",    
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d17691752-Reviews-Mr_Kim_s-Portsmouth_New_Hampshire.html",
         },
         dennett: {
             mode: 'Walkable',
@@ -848,7 +928,7 @@ let restaurantData = [{
             website: 'https://www.streetfood360.com/',
             facebook: 'https://www.facebook.com/STREETrestaurant',
             yelp: "https://www.yelp.com/biz/street-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3251688-Reviews-Street_Food_360-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d3251688-Reviews-Street_Food_360-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -864,7 +944,7 @@ let restaurantData = [{
             website: 'https://cornerstoneportsmouth.com/',
             facebook: 'https://www.facebook.com/cornerstonewestendportsmouth',
             yelp: "https://www.yelp.com/biz/cornerstone-artisanal-pizza-and-craft-beer-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d14173601-Reviews-Cornerstone_Pizza_And_Beer-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d14173601-Reviews-Cornerstone_Pizza_And_Beer-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -880,7 +960,7 @@ let restaurantData = [{
             website: 'https://www.botanicanh.com/',
             facebook: 'https://www.facebook.com/botanicanh',
             yelp: "https://www.yelp.com/biz/botanica-portsmouth-4",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d16811505-Reviews-Botanica_Restaurant_and_Gin_Bar-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d16811505-Reviews-Botanica_Restaurant_and_Gin_Bar-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walakable',
@@ -896,7 +976,7 @@ let restaurantData = [{
             website: 'https://www.cafe--espresso.com/',
             facebook: 'https://www.facebook.com/cafeespressoportsmouth',
             yelp: "https://www.yelp.com/biz/cafe-espresso-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d616548-Reviews-Cafe_Espresso-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d616548-Reviews-Cafe_Espresso-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -912,7 +992,7 @@ let restaurantData = [{
             website: 'https://www.mojosportsmouth.com/',
             facebook: 'https://www.facebook.com/MoJosBBQGrillandTavern',
             yelp: "https://www.yelp.com/biz/mojos-bbq-grill-and-tavern-portsmouth-2",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1587616-Reviews-MoJo_s_BBQ_Shack-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1587616-Reviews-MoJo_s_BBQ_Shack-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -928,7 +1008,7 @@ let restaurantData = [{
             website: 'https://sanderslobster.com/',
             facebook: 'https://www.facebook.com/sandersfishmarket',
             yelp: "https://www.yelp.com/biz/sanders-lobster-company-portsmouth-2",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1128318-Reviews-Sanders_Lobster_Company-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d1128318-Reviews-Sanders_Lobster_Company-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -940,11 +1020,11 @@ let restaurantData = [{
         location: "https://www.google.com/maps/place/Geno's+Chowder+%26+Sandwich+Shop/@43.0742353,-70.7517269,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf12e0604ad5:0xf09d494047955fac!8m2!3d43.0742353!4d-70.7495329?hl=en&authuser=0",
         logo: 'genologo.jpg',
         summary: "Clam chowder & lobster roll mainstay",
-        pages:{
+        pages: {
             website: 'http://www.genoschowder.com/',
             facebook: 'https://www.facebook.com/Genos-Chowder-and-Sandwich-Shop-110407852340391',
             yelp: "https://www.yelp.com/biz/genos-chowder-and-sandwich-shop-portsmouth",
-            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412922-Reviews-Geno_s_Chowder_Sandwich_Shop-Portsmouth_New_Hampshire.html',    
+            tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412922-Reviews-Geno_s_Chowder_Sandwich_Shop-Portsmouth_New_Hampshire.html',
         },
         dennett: {
             mode: 'Walkable',
@@ -960,7 +1040,7 @@ let restaurantData = [{
             website: '',
             facebook: '',
             yelp: "",
-            tripadvisor: "",    
+            tripadvisor: "",
         },
         dennett: {
             mode: '',
@@ -970,15 +1050,12 @@ let restaurantData = [{
     },
 ];
 
-// Red rover creamery
-// Ceres street bakery
+
 // Ceo's Gelato
 // Mos 
 // tj
-// cafe van solln 
 // danieal street tavern
 // harpoon williy
-// lazy jack
 // annabelle   
 // spring hill tavern
 // izzy
@@ -986,12 +1063,10 @@ let restaurantData = [{
 // cup of joe
 // tuscan Market 
 // popovers 
-// the works 
 // bennetts 
 // green room 
 // mr wish 
 // the goods
-// maisson naverre 
 // dwyers
 // legends
 // juicery 
@@ -1000,6 +1075,7 @@ let restaurantData = [{
 // white Heron 
 // breadbox 
 // wrap shack 
+// Red rover creamery
 
 // offerings: {
 //     drinks: {
