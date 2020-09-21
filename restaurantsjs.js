@@ -192,6 +192,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Dwyer's+Pub,+96+Bridge+St,+Portsmouth,+NH+03801/@43.0783497,-70.7672445,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfe08cc8fdc3:0x152d96556f9ee887!2m2!1d-70.7622081!2d43.0767271!3e2?hl=en&authuser=0",
         },
     }, {
+        name: "Legend's Billiards",
+        location: "https://www.google.com/maps/place/Legends+Billiards+%26+Tavern/@43.077281,-70.762136,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0ba2ca2493:0x225acb8698c55f97!8m2!3d43.077281!4d-70.759942?hl=en&authuser=0",
+        logo: 'legendslogo.jpg',
+        summary: "Beer, Pub food, Billiards & darts",
+        pages: {
+            website: 'http://www.legendsbilliards.com/?fbclid=IwAR1rYOVcu0ZbrjT8KWOzDKyomr7X6AykmJ-KCPsqOho4rXT-KlJw6blpfC8',
+            facebook: 'https://www.facebook.com/Legends-Billiards-Tavern-311850082172989',
+            yelp: "https://www.yelp.com/biz/legends-billiards-and-tavern-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d4572009-Reviews-Legends_Billiards_and_Tavern-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.5',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Legends+Billiards+%26+Tavern,+80+Hanover+St,+Portsmouth,+NH+03801/@43.0786572,-70.768444,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0ba2ca2493:0x225acb8698c55f97!2m2!1d-70.759942!2d43.077281!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: "Jumpin' Jay's",
         location: "https://www.google.com/maps/place/Jumpin'+Jay's+Fish+Cafe/@43.0756238,-70.7626514,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b3d9e98cd:0x6155a48c29e1d9c1!8m2!3d43.0756238!4d-70.7604574?hl=en&authuser=0",
         logo: 'jumpinjaylogo.jpg',
