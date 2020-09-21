@@ -64,6 +64,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/BRGR+Bar,+Portwalk+Place,+Portsmouth,+NH/@43.0789114,-70.76683,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0bc9ecb8db:0x5e70b41df507e3a2!2m2!1d-70.7611022!2d43.078236!3e2",
         }
     }, {
+        name: 'Statey Bar & Grill',
+        location: "https://www.google.com/maps/place/Statey+Bar+%26+Grill/@43.0772534,-70.7645269,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bfeea6f2dc1b:0x5f26444ca97a19c9!8m2!3d43.0772534!4d-70.7623329?hl=en&authuser=0",
+        logo: 'stateylogo.jpg',
+        summary: "Seafood & pub food in a sport bar atmosphere",
+        pages: {
+            website: 'https://www.thestateybar.com/',
+            facebook: 'https://www.facebook.com/thestatestreetsaloon',
+            yelp: "https://www.yelp.com/biz/the-statey-bar-and-grill-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d14174003-Reviews-Statey_Bar_Grill-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.4',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Statey+Bar+%26+Grill,+238+Deer+St,+Portsmouth,+NH+03801/@43.0786129,-70.7672445,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfeea6f2dc1b:0x5f26444ca97a19c9!2m2!1d-70.7623329!2d43.0772534!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: 'Dos Amigos',
         location: 'https://www.google.com/maps/place/Dos+Amigos+Burritos+-+Portsmouth/@43.0776429,-70.763008,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0dc6a60ff7:0x499dbd49926298aa!8m2!3d43.0776429!4d-70.760814?hl=en&authuser=0',
         logo: 'dosamigoslogo.jpg',
@@ -159,6 +175,22 @@ let restaurantData = [{
             distance: '0.5',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/La+Carreta+Mexican+Restaurant,+Hanover+Street,+Portsmouth,+NH/@43.0781677,-70.768385,16z/data=!3m2!4b1!5s0x89e2bf9b9ce6beaf:0x290ab22deaff8c29!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf43f4476eaf:0x85aabbb760c608a!2m2!1d-70.7603683!2d43.0771598!3e2?hl=en&authuser=0",
         }
+    }, {
+        name: "Dwyer's Pub",
+        location: "https://www.google.com/maps/place/Dwyer's+Pub/@43.0767271,-70.7644021,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bfe08cc8fdc3:0x152d96556f9ee887!8m2!3d43.0767271!4d-70.7622081?hl=en&authuser=0",
+        logo: 'dwyerlogo.jpg',
+        summary: "Comfortable, casual pub serving quality food & drink",
+        pages: {
+            website: 'https://dwyerspubportsmouth.com/',
+            facebook: 'https://www.facebook.com/Dwyers-Pub-108032330637155',
+            yelp: "https://www.yelp.com/biz/dwyers-pub-portsmouth",
+            tripadvisor: "",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.5',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Dwyer's+Pub,+96+Bridge+St,+Portsmouth,+NH+03801/@43.0783497,-70.7672445,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfe08cc8fdc3:0x152d96556f9ee887!2m2!1d-70.7622081!2d43.0767271!3e2?hl=en&authuser=0",
+        },
     }, {
         name: "Jumpin' Jay's",
         location: "https://www.google.com/maps/place/Jumpin'+Jay's+Fish+Cafe/@43.0756238,-70.7626514,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b3d9e98cd:0x6155a48c29e1d9c1!8m2!3d43.0756238!4d-70.7604574?hl=en&authuser=0",
@@ -1024,6 +1056,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Wrap+Shack,+361+Islington+St,+Portsmouth,+NH+03801/@43.0727256,-70.7649809,16z/data=!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfd3673272cd:0x81c4ca7ccce698e2!2m2!1d-70.767002!2d43.0730745!3e2?hl=en&authuser=0",
         },
     }, {
+        name: "Darleen's Subs",
+        location: "https://www.google.com/maps/place/Darleen's+Sub+%26+Pizza,+(Nikki's+Banh+Mi+Shop)/@43.0701564,-70.7740763,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9bbd7eec73:0x632c99df1a451562!8m2!3d43.0701564!4d-70.7718823?hl=en&authuser=0",
+        logo: 'darleenlogo.jpg',
+        summary: "Basic sandwich shop with pizza & banh mi",
+        pages: {
+            website: 'https://nikkisbanhmi.com/?fbclid=IwAR3j-ohBWhdVJWEuB3vnQOe0QY3n7HLV4eN_ekLJo2C2hapd-Oc0dXpXJds',
+            facebook: 'https://www.facebook.com/NikkisBanhMi',
+            yelp: "https://www.yelp.com/biz/darleens-sub-and-pizza-nikki-s-banh-mi-shop-portsmouth-2",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d413087-Reviews-Nikki_s_Bahn_Mi-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.9',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Darleen's+Sub+%26+Pizza,+(Nikki's+Banh+Mi+Shop),+697+Islington+St,+Portsmouth,+NH+03801/@43.0750411,-70.7779678,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9bbd7eec73:0x632c99df1a451562!2m2!1d-70.7718823!2d43.0701564!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: 'STREET',
         location: 'https://www.google.com/maps/place/STREET+eat%2Fdrink+360/@43.069034,-70.7754298,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b1bc0b6f7:0x499f50d15ba39a85!8m2!3d43.069034!4d-70.7732358?hl=en&authuser=0',
         logo: 'streetlogo.jpg',
@@ -1087,6 +1135,54 @@ let restaurantData = [{
             distance: '1.0',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Cafe+Espresso,+Islington+Street,+Portsmouth,+NH/@43.0743631,-70.7759027,15z/data=!3m2!4b1!5s0x89e2bf9b9ce6beaf:0x290ab22deaff8c29!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9ba097e131:0xb5dc36a6533c5ee!2m2!1d-70.7712584!2d43.0693633!3e2?hl=en&authuser=0",
         }
+    }, {
+        name: "Luigi's West End",
+        location: "https://www.google.com/maps/place/Luigi's+West+End+Pizzeria/@43.0688003,-70.7751743,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bfd6af4a7a01:0x5e809d304803a0e3!8m2!3d43.0688003!4d-70.7729803?hl=en&authuser=0",
+        logo: 'luigilogo.jpg',
+        summary: "Neighborhood Italian American Pizza Restaurant",
+        pages: {
+            website: 'https://www.luigisportsmouth.com/',
+            facebook: 'https://www.facebook.com/luigiswestendpizzeria',
+            yelp: "https://www.yelp.com/biz/luigis-west-end-pizzeria-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d19005931-Reviews-Luigi_s_West_End_Pizzeria-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '1.0',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Luigi's+West+End+Pizzeria,+801+Islington+St,+Portsmouth,+NH+03801/@43.0743476,-70.7760124,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfd6af4a7a01:0x5e809d304803a0e3!2m2!1d-70.7729803!2d43.0688003!3e2?hl=en&authuser=0",
+        },
+    }, {
+        name: 'White Heron',
+        location: "https://www.google.com/maps/place/White+Heron+Tea+%26+Coffee/@43.0711442,-70.7728382,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9bf93f41bb:0x941f8924e5163a40!8m2!3d43.0711442!4d-70.7706442?hl=en&authuser=0",
+        logo: 'whiteheronlogo.jpg',
+        summary: "Organic java & light fair in comfy digs",
+        pages: {
+            website: 'https://www.whiteherontea.com/',
+            facebook: 'https://www.facebook.com/whiteherontea',
+            yelp: "https://www.yelp.com/biz/white-heron-tea-and-coffee-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d874514-Reviews-White_Heron_Tea_Coffee_Community-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '1.0',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/White+Heron+Tea+%26+Coffee,+601+Islington+St+%23103,+Portsmouth,+NH+03801/@43.0752207,-70.77793,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9bf93f41bb:0x941f8924e5163a40!2m2!1d-70.7706442!2d43.0711442!3e2?hl=en&authuser=0",
+        },
+    }, {
+        name: 'Bread Box Pizza',
+        location: "https://www.google.com/maps/place/Bread+Box/@43.07211,-70.770625,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9e93904f65:0x213d89c603fc8c35!8m2!3d43.07211!4d-70.768431?hl=en&authuser=0",
+        logo: 'breadboxlogo.jpg',
+        summary: "Take-out thick crust pizza & subs",
+        pages: {
+            website: 'https://www.portsmouthbreadbox.net/',
+            facebook: 'https://www.facebook.com/portsmouthbreadbox',
+            yelp: "https://www.yelp.com/biz/the-bread-box-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d412858-Reviews-Marshall_s_Bread_Box_Deli-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '1.0',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Bread+Box,+460+Islington+St,+Portsmouth,+NH+03801/@43.0760411,-70.7689403,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9e93904f65:0x213d89c603fc8c35!2m2!1d-70.768431!2d43.07211!3e2?hl=en&authuser=0",
+        },
     }, {
         name: "MoJo's BBQ Shack",
         location: "https://www.google.com/maps/place/MoJo's+BBQ+Grill+%26+Tavern/@43.0698194,-70.771394,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b7bc513fb:0x1bfa741cd6efa168!8m2!3d43.0698194!4d-70.7692?hl=en&authuser=0",
@@ -1153,7 +1249,6 @@ let restaurantData = [{
         },
     },
 ];
-
  
 // tj
 // danieal street tavern
@@ -1164,13 +1259,8 @@ let restaurantData = [{
 // green room 
 // mr wish 
 // the goods
-// dwyers
 // legends
-// juicery 
-// darlenns 
-// luigis
-// white Heron 
-// breadbox 
+// juicery
 // Red rover creamery
 
 let tempOfferings = {
