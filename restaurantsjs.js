@@ -224,6 +224,38 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Goods,+29+Vaughan+Mall,+Portsmouth,+NH+03801/@43.0781677,-70.7683341,16z/data=!3m2!4b1!5s0x89e2bf0b9faa7ad9:0xef7a489526963475!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0b9f6225b5:0x6bb9626e0970633d!2m2!1d-70.7597222!2d43.0766667!3e2?hl=en&authuser=0",
         },
     }, {
+        name: 'The Green Room',
+        location: "https://www.google.com/maps/place/The+Green+Room/@43.0768005,-70.7619252,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bfb05ff15487:0x4676b6c233b99f12!8m2!3d43.0768005!4d-70.7597312?hl=en&authuser=0",
+        logo: 'greenroomlogo.jpg',
+        summary: "Organic juices & light breakfast and lunch",
+        pages: {
+            website: 'http://greenroomnh.com/portsmouth/',
+            facebook: 'https://www.facebook.com/Greenroomportsmouth',
+            yelp: "https://www.yelp.com/biz/the-green-room-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d19120171-Reviews-Green_Room-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.5',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Green+Room,+41+Vaughan+Mall,+Portsmouth,+NH+03801/@43.0783587,-70.7683386,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfb05ff15487:0x4676b6c233b99f12!2m2!1d-70.7597312!2d43.0768005!3e2?hl=en&authuser=0",
+        },
+    }, {
+        name: 'Mr, Wish',
+        location: "https://www.google.com/maps/place/Mr.+Wish/@43.0768166,-70.7618157,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0edb8c3b7f:0xf329c921ec42567b!8m2!3d43.0768166!4d-70.7596217?hl=en&authuser=0",
+        logo: 'mrwishlogo.jpg',
+        summary: "Boba (bubble teas), all natural fruit teas and smoothies",
+        pages: {
+            website: 'https://www.mrwishusa.com/',
+            facebook: 'https://www.facebook.com/MrWishPortsmouth',
+            yelp: "https://www.yelp.com/biz/mr-wish-portsmouth",
+            tripadvisor: "",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.5',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Mr.+Wish,+37+Vaughan+Mall,+Portsmouth,+NH+03801/@43.0783487,-70.7682838,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0edb8c3b7f:0xf329c921ec42567b!2m2!1d-70.7596217!2d43.0768166!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: "Jumpin' Jay's",
         location: "https://www.google.com/maps/place/Jumpin'+Jay's+Fish+Cafe/@43.0756238,-70.7626514,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b3d9e98cd:0x6155a48c29e1d9c1!8m2!3d43.0756238!4d-70.7604574?hl=en&authuser=0",
         logo: 'jumpinjaylogo.jpg',
@@ -430,6 +462,22 @@ let restaurantData = [{
             mode: 'Walkable',
             distance: '0.6',
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Bennett's+Sandwich+Shop,+41+Congress+Street,+Portsmouth,+NH+03801/@43.0778605,-70.7678012,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0b8142140f:0x6562e6c34d4e1e03!2m2!1d-70.758755!2d43.0767!3e2?hl=en&authuser=0",
+        },
+    }, {
+        name: 'The Juicery',
+        location: "https://www.google.com/maps/place/The+Juicery/@43.0817125,-70.8017924,14z/data=!4m8!1m2!2m1!1sthe+juicery!3m4!1s0x89e2bf0bf7a0ebdb:0x6b6475d003bb5cf6!8m2!3d43.0781749!4d-70.7586688?hl=en&authuser=0",
+        logo: 'juicerylogo.jpg',
+        summary: "Smoothies, juices & health-minded eats",
+        pages: {
+            website: 'https://juicery.com/',
+            facebook: 'https://www.facebook.com/portsmouthJuicery',
+            yelp: "https://www.yelp.com/biz/the-juicery-portsmouth?osq=The+Juicery",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d829642-Reviews-Juicery-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.6',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Juicery,+55+Hanover+St,+Portsmouth,+NH+03801/@43.0786386,-70.7677782,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0bf7a0ebdb:0x6b6475d003bb5cf6!2m2!1d-70.7586688!2d43.0781749!3e2?hl=en&authuser=0",
         },
     }, {
         name: 'Cava',
@@ -832,6 +880,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/43.0793849,-70.7683991/Annabelle's+Natural+Ice+Cream,+49+Ceres+St,+Portsmouth,+NH+03801/@43.0788887,-70.7674302,16z/data=!3m1!4b1!4m17!1m6!3m5!1s0x89e2bf0eac28f28b:0x6437917f7db5f396!2sAnnabelle's+Natural+Ice+Cream!8m2!3d43.0788889!4d-70.7580556!4m9!1m1!4e1!1m5!1m1!1s0x89e2bf0eac28f28b:0x6437917f7db5f396!2m2!1d-70.7580556!2d43.0788889!3e2?hl=en&authuser=0",
         },
     }, {
+        name: "Izzy's Frozen Yogurt & Ice Cream",
+        location: "https://www.google.com/maps/place/Izzy's+Frozen+Yogurt+%26+Ice+Cream/@43.078598,-70.7593054,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0e9ffac745:0x40facbdcd1cfb7c2!8m2!3d43.078598!4d-70.7571114?hl=en&authuser=0",
+        logo: 'izzylogo.jpg',
+        summary: "Ice cream and frozen yogurt since 1992",
+        pages: {
+            website: 'https://www.izzysfrozenyogurtandicecreamnh.com/',
+            facebook: 'https://www.facebook.com/Izzys-Frozen-Yogurt-Ice-Cream-362104891555',
+            yelp: "https://www.yelp.com/biz/izzys-frozen-yogurt-and-ice-cream-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d831361-Reviews-Izzy_s_Frozen_Yogurt-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.7',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Izzy's+Frozen+Yogurt+%26+Ice+Cream,+33+Bow+St,+Portsmouth,+NH+03801/@43.0778605,-70.7669665,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0e9ffac745:0x40facbdcd1cfb7c2!2m2!1d-70.7571114!2d43.078598!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: 'Ristorante Massimo',
         location: "https://www.google.com/maps/place/Massimo's+-+Ristorante+Massimo/@43.0771685,-70.7583364,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c3818b215:0xf0bf1bca27cab65!8m2!3d43.0771685!4d-70.7561424?hl=en&authuser=0",
         logo: 'massimologo.jpg',
@@ -1120,6 +1184,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Darleen's+Sub+%26+Pizza,+(Nikki's+Banh+Mi+Shop),+697+Islington+St,+Portsmouth,+NH+03801/@43.0750411,-70.7779678,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9bbd7eec73:0x632c99df1a451562!2m2!1d-70.7718823!2d43.0701564!3e2?hl=en&authuser=0",
         },
     }, {
+        name: 'Red Rover Creamery',
+        location: "https://www.google.com/maps/place/Red+Rover+Creamery/@43.0765865,-70.7574418,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf28029d8d4d:0x5a5e8cce53617ae8!8m2!3d43.0765865!4d-70.7552478?hl=en&authuser=0",
+        logo: 'redroverlogo.jpg',
+        summary: "Offering seasonal, American style ice cream & sherbet",
+        pages: {
+            website: 'https://www.redrovercreamery.com/',
+            facebook: 'https://www.facebook.com/RedRoverCreamery',
+            yelp: "https://www.yelp.com/biz/red-rover-creamery-portsmouth-2",
+            tripadvisor: "",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.9',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Red+Rover+Creamery,+150+State+Street,+Portsmouth,+NH+03801/@43.0774206,-70.7660969,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf28029d8d4d:0x5a5e8cce53617ae8!2m2!1d-70.7552478!2d43.0765865!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: 'STREET',
         location: 'https://www.google.com/maps/place/STREET+eat%2Fdrink+360/@43.069034,-70.7754298,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b1bc0b6f7:0x499f50d15ba39a85!8m2!3d43.069034!4d-70.7732358?hl=en&authuser=0',
         logo: 'streetlogo.jpg',
@@ -1264,7 +1344,7 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/MoJo's+BBQ+Grill+%26+Tavern,+95+Brewery+Ln,+Portsmouth,+NH+03801/@43.0748157,-70.7760124,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9b7bc513fb:0x1bfa741cd6efa168!2m2!1d-70.7692!2d43.0698194!3e2?hl=en&authuser=0",
         }
     }, {
-        name: "Sander's Seafod",
+        name: "Sander's Seafood",
         location: 'https://www.google.com/maps/place/Sanders+Fish+Market/@43.0729505,-70.7525751,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf12cbffcbc1:0xfadd1192d1e1f98b!8m2!3d43.0729505!4d-70.7503811?hl=en&authuser=0',
         logo: 'sanderslogo.jpg',
         summary: "Counter service lobster rolls and seafood to cook at home",
@@ -1313,15 +1393,9 @@ let restaurantData = [{
         },
     },
 ];
- 
-// tj
-// danieal street tavern
-// spring hill tavern
-// izzy
-// green room 
-// mr wish 
-// juicery
-// Red rover creamery
+
+
+
 
 
 
@@ -1338,6 +1412,7 @@ function makeCard() {
         <a href="' + restaurantData[i].pages.yelp + '" class="btn btn-danger m-1"><i class="fab fa-yelp"></i> Yelp</a> \
         <a href="' + restaurantData[i].pages.tripadvisor + '" class="btn btn-success m-1"><i class="fab fa-tripadvisor"></i> Tripadvisor</a> \
         <a href="' + restaurantData[i].dennett.directions + '" class="btn text-white bg-secondary m-1"><i class="fas fa-walking"></i> Walking directions</a> \
+        <a href="' + restaurantData[i].location + '" class="btn text-white bg-secondary m-1"><i class="fab fa-google"></i> Location (Google)</a> \
     </div> \
 </div>';
 }
