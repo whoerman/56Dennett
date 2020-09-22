@@ -208,6 +208,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Legends+Billiards+%26+Tavern,+80+Hanover+St,+Portsmouth,+NH+03801/@43.0786572,-70.768444,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0ba2ca2493:0x225acb8698c55f97!2m2!1d-70.759942!2d43.077281!3e2?hl=en&authuser=0",
         },
     }, {
+        name: 'The Goods',
+        location: "https://www.google.com/maps/place/The+Goods/@43.0766667,-70.7619162,17z/data=!3m2!4b1!5s0x89e2bf0b9faa7ad9:0xef7a489526963475!4m5!3m4!1s0x89e2bf0b9f6225b5:0x6bb9626e0970633d!8m2!3d43.0766667!4d-70.7597222?hl=en&authuser=0",
+        logo: 'goodslogo.jpg',
+        summary: "Rustic spot with cafe fare & coffee",
+        pages: {
+            website: 'http://www.thegoodsnh.com/',
+            facebook: 'https://www.facebook.com/goodsmarketandcafe',
+            yelp: "https://www.yelp.com/biz/the-goods-market-and-cafe-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d11896536-Reviews-The_Goods-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.5',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Goods,+29+Vaughan+Mall,+Portsmouth,+NH+03801/@43.0781677,-70.7683341,16z/data=!3m2!4b1!5s0x89e2bf0b9faa7ad9:0xef7a489526963475!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0b9f6225b5:0x6bb9626e0970633d!2m2!1d-70.7597222!2d43.0766667!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: "Jumpin' Jay's",
         location: "https://www.google.com/maps/place/Jumpin'+Jay's+Fish+Cafe/@43.0756238,-70.7626514,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0b3d9e98cd:0x6155a48c29e1d9c1!8m2!3d43.0756238!4d-70.7604574?hl=en&authuser=0",
         logo: 'jumpinjaylogo.jpg',
@@ -800,6 +816,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Popovers+On+the+Square,+8+Congress+Street,+Portsmouth,+NH+03801/@43.077824,-70.7672364,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c799a0dc3:0x22f66f7dfa37704c!2m2!1d-70.7580935!2d43.0766044!3e2?hl=en&authuser=0",
         },
     }, {
+        name: "Annabelle's Natural Ice Cream",
+        location: "https://www.google.com/maps/place/Annabelle's+Natural+Ice+Cream/@43.0788889,-70.7602496,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0eac28f28b:0x6437917f7db5f396!8m2!3d43.0788889!4d-70.7580556?hl=en&authuser=0",
+        logo: 'annabellelogo.jpg',
+        summary: "Long-runng shop for premium scoops",
+        pages: {
+            website: 'https://www.annabellesicecream.com/',
+            facebook: 'https://www.annabellesicecream.com/',
+            yelp: "https://www.yelp.com/biz/annabelles-natural-ice-cream-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d818772-Reviews-Annabelle_s_Natural_Ice_Cream-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '0.7',
+            directions: "https://www.google.com/maps/dir/43.0793849,-70.7683991/Annabelle's+Natural+Ice+Cream,+49+Ceres+St,+Portsmouth,+NH+03801/@43.0788887,-70.7674302,16z/data=!3m1!4b1!4m17!1m6!3m5!1s0x89e2bf0eac28f28b:0x6437917f7db5f396!2sAnnabelle's+Natural+Ice+Cream!8m2!3d43.0788889!4d-70.7580556!4m9!1m1!4e1!1m5!1m1!1s0x89e2bf0eac28f28b:0x6437917f7db5f396!2m2!1d-70.7580556!2d43.0788889!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: 'Ristorante Massimo',
         location: "https://www.google.com/maps/place/Massimo's+-+Ristorante+Massimo/@43.0771685,-70.7583364,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c3818b215:0xf0bf1bca27cab65!8m2!3d43.0771685!4d-70.7561424?hl=en&authuser=0",
         logo: 'massimologo.jpg',
@@ -1200,6 +1232,22 @@ let restaurantData = [{
             directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Bread+Box,+460+Islington+St,+Portsmouth,+NH+03801/@43.0760411,-70.7689403,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9e93904f65:0x213d89c603fc8c35!2m2!1d-70.768431!2d43.07211!3e2?hl=en&authuser=0",
         },
     }, {
+        name: 'Port City Coffee Roasters',
+        location: "https://www.google.com/maps/place/Port+City+Coffee+Roasters/@43.0692588,-70.7756067,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b1bc0b6f7:0xc6ea26c46a7f7b51!8m2!3d43.0692588!4d-70.7734127?hl=en&authuser=0",
+        logo: 'portcitylogo.jpg',
+        summary: "West-end coffee, breakfast & sandwiches since 1992",
+        pages: {
+            website: 'https://portcitycoffee.com/',
+            facebook: 'https://www.facebook.com/portcitycoffee',
+            yelp: "https://www.yelp.com/biz/port-city-coffee-roasters-portsmouth",
+            tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d5953963-Reviews-Port_City_Coffee_Roasters-Portsmouth_New_Hampshire.html",
+        },
+        dennett: {
+            mode: 'Walkable',
+            distance: '1.1',
+            directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Port+City+Coffee+Roasters,+801+Islington+St,+Portsmouth,+NH+03801/@43.0745596,-70.7760124,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9b1bc0b6f7:0xc6ea26c46a7f7b51!2m2!1d-70.7734127!2d43.0692588!3e2?hl=en&authuser=0",
+        },
+    }, {
         name: "MoJo's BBQ Shack",
         location: "https://www.google.com/maps/place/MoJo's+BBQ+Grill+%26+Tavern/@43.0698194,-70.771394,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b7bc513fb:0x1bfa741cd6efa168!8m2!3d43.0698194!4d-70.7692?hl=en&authuser=0",
         logo: 'mojologo.jpg',
@@ -1268,40 +1316,14 @@ let restaurantData = [{
  
 // tj
 // danieal street tavern
-// harpoon williy
-// annabelle   
 // spring hill tavern
 // izzy
 // green room 
 // mr wish 
-// the goods
-// legends
 // juicery
 // Red rover creamery
 
-let tempOfferings = {
-    offerings: {
-        drinks: {
-            coffee: "",
-            beer: {
-                bottles: "",
-                draft: "",
-                tapnumber: "",
-            },
-            wine: "",
-            cocktails: "",
-        },
-        food: {
-            icecream: "",
-        },
-        genre: {
-            american: "",
-            french: "",
-            asian: "",
-            mexican: "",
-        }
-    }
-}
+
 
 
 
