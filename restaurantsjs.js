@@ -1848,15 +1848,23 @@ function hungryOptionsButtons() {
     </div>'
     document.getElementById("secondrestaurantsdiv").innerHTML = hungryOptionsButtons;
     document.getElementById("breakfastbutton").addEventListener('click', function () {
+        document.getElementById("toprestaurantsdiv").innerHTML = "";
+        document.getElementById("toprestaurantsdiv").innerHTML = "Breakfast";
         console.log("breakfast")
     });
     document.getElementById("lunchbutton").addEventListener('click', function () {
-        console.log("lunch")
+        document.getElementById("toprestaurantsdiv").innerHTML = "";
+        document.getElementById("toprestaurantsdiv").innerHTML = "Lunch";       
+        console.log("lunch");
     });
     document.getElementById("dinnerbutton").addEventListener('click', function () {
+        document.getElementById("toprestaurantsdiv").innerHTML = "";
+        document.getElementById("toprestaurantsdiv").innerHTML = "Dinner";  
         console.log("dinner")
     });
-    document.getElementById("snackbutton").addEventListener('click', function () {
+   document.getElementById("snackbutton").addEventListener('click', function () {
+        document.getElementById("toprestaurantsdiv").innerHTML = "";
+        document.getElementById("toprestaurantsdiv").innerHTML = "Snack"; 
         console.log("snack")
     });
 }
