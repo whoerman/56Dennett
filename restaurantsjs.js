@@ -1827,6 +1827,7 @@ introButtons();
 
 
 function hungryOptionsButtons() {
+    document.getElementById("headTitle").innerHTML = "";
     document.getElementById("toprestaurantsdiv").innerHTML = "";
     let hungryIntro = 
     '<div class="card border-secondary bg-info text-center p-3"> \
@@ -1838,10 +1839,26 @@ function hungryOptionsButtons() {
     let hungryOptionsButtons = 
     '<div class="card border-secondary text-center"> \
         <div class="card-body"> \
-        <h5>options</h5> \
+        <h5>What meal or snack do you want?</h5> \
+        <button id="breakfastbutton" type="button" class="btn btn-secondary text-center m-1"><i class="fas fa-coffee"></i> Breakfast</button> \
+        <button id="lunchbutton" type="button" class="btn btn-secondary text-center m-1"><i class="fas fa-utensils"></i> Lunch</button> \
+        <button id="dinnerbutton" type="button" class="btn btn-secondary text-center m-1"><i class="fas fa-utensils"></i> Dinner</button> \
+        <button id="snackbutton" type="button" class="btn btn-secondary text-center m-1"><i class="fas fa-utensils"></i> Snack</button> \
         </div> \
     </div>'
     document.getElementById("secondrestaurantsdiv").innerHTML = hungryOptionsButtons;
+    document.getElementById("breakfastbutton").addEventListener('click', function () {
+        console.log("breakfast")
+    });
+    document.getElementById("lunchbutton").addEventListener('click', function () {
+        console.log("lunch")
+    });
+    document.getElementById("dinnerbutton").addEventListener('click', function () {
+        console.log("dinner")
+    });
+    document.getElementById("snackbutton").addEventListener('click', function () {
+        console.log("snack")
+    });
 }
 
 
