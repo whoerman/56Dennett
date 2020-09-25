@@ -1797,4 +1797,16 @@ let restaurantData = [{
     },
 }, ];
 
-// module.export = restaurantData;
+// let options = [
+//     offerings: {
+//         food: false,
+//         meal: {
+//             breakfast: false,
+//             amSnack: false,
+//             lunch: false,
+//             icecream: false,
+//             dinner: false,
+//             snack: false,
+//         }
+//     }
+// ]
