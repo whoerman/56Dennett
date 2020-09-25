@@ -44,7 +44,6 @@ introButtons();
 function mealOptionsButtons() {
 
     //emptying out the divs again
-    document.getElementById("headTitle").innerHTML = "";
     document.getElementById("toprestaurantsdiv").innerHTML = "";
 
     //formatting and placing the intro comment for the meal buttons
@@ -94,7 +93,7 @@ function mealOptionsButtons() {
     });
 
     //event listener and process ice cream button
-    document.getElementById("lunchbutton").addEventListener('click', function () {
+    document.getElementById("treatbutton").addEventListener('click', function () {
         document.getElementById("toprestaurantsdiv").innerHTML = "";
         document.getElementById("toprestaurantsdiv").innerHTML = "Ice Cream";
         console.log("ice cream");
@@ -114,6 +113,11 @@ function mealOptionsButtons() {
         console.log("snack")
     });
 }
+
+
+
+
+
 
 
 
@@ -175,4 +179,3 @@ function listAll() {
     }
 }
 
-listAll();
