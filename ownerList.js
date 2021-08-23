@@ -36,7 +36,7 @@ let ownerListArray = [
         bio: null
     },
     {
-        owner: 'George W, Dennett',
+        owner: 'George W Dennett',
         monthBought: null,
         yearBought: 1832,
         monthSold: "June",
@@ -175,7 +175,7 @@ let ownerListArray = [
         monthBought: "March",
         yearBought: 2017,
         monthSold: null,
-        yearSold: null,
+        yearSold: "Present",
         source: 'Rockingham County Deeds',
         bio: null
     },
