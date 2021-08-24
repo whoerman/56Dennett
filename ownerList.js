@@ -6,7 +6,7 @@ let ownerListArray = [
         monthSold: null,
         yearSold: 1741,
         source: 'Dennett Family Lineage',
-        bio: "Ephraim was born on 1689-08-02. He died in 1741 at the age of 51 years. Ephraim was the son of Dennett, John and Sherburne, Amy. He married , Catherine. The youngest child of John and Amy was Ephraim, who was born Aug. 2, 1689, and lived with his mother until she died. He controlled the land on the main property along today's roadway, Dennett Street. Ephraim Dennett became the most politically active of the Dennetts. He served as a selectman from 1715 to 1718 and representative to the legislative house from 1718 to 1728. Newington was separated from Porstmouth in 1713, and Ephraim's land was on the edge of Portsmouth. In 1732, Ephraim was appointed to the Governor's Council at the time that Richard Waldron controlled politics, from the death of Lt. Governor John Wentworth until Benning Wentworth was named Royal Governor of the 'old colony. Ephraim Sr. married Catherine and had at least five children, of whom Ephraom Jr, born July 22, 1718 was the eldest."
+        bio: "Ephraim Dennett was born on the 2nd of August, 1689, to John and Amy (Sherburne) Dennett, in the 'Beehive' house on the hill above this home. He lived with his mother until she died. Ephraim controlled the land on the main Dennett property along today's Dennett Street. Ephraim married Catherine Wise and had at least five children, of whom Ephraim Jr, born July 22, 1718, was the eldest. Ephraim Dennett became the most politically active of the Dennetts. He served as a selectman from 1715 to 1718 and representative to the legislative house from 1718 to 1728. Newington was separated from Portsmouth in 1713, and Ephraim's land was on the edge of Portsmouth. In 1732, Ephraim was appointed to the Governor's Council at the time that Richard Waldron controlled politics, from the death of Lt. Governor John Wentworth until Benning Wentworth was named Royal Governor of the 'old colony.",
     },
     {
         owner: 'John Dennett',
@@ -15,7 +15,7 @@ let ownerListArray = [
         monthSold: null,
         yearSold: 1787,
         source: 'Dennett Family Lineage',
-        bio: 'John was born on 1716-10-15 in New Hampshire. He died in 1787 in New Hampshire at the age of 70 years. John was the son of Dennett, Ephraim and , Catherine. He married Bartlett, Phobe in 1739-02-00.'
+        bio: 'John Dennett was born on 15 October 1716, in the Beehive House up on the hill. John was the son of Ephraim and Catherine (Wise) Dennett. John married Phoebe Bartlett in February 1739. They were the parents of at least 1 son and 2 daughters.',
     },
     {
         owner: 'Nathaniel Dennett',
@@ -24,7 +24,7 @@ let ownerListArray = [
         monthSold: null,
         yearSold: 1808,
         source: 'Dennett Family Lineage',
-        bio: null
+        bio: 'When Nathaniel Dennett was born in 1740, in Portsmouth, his father, John Dennett, was 24 and his mother, Phebe Bartlett, was 19. He married Margrey Rogers on 2 January 1762, in Kittery, York, Massachusetts Bay Colony, British Colonial America. They were the parents of at least 1 son and 1 daughter. He died on 15 April 1808, in Portsmouth at the age of 68, and was buried in Proprietors Burying Ground off South Street.',
     },
     {
         owner: 'Ephraim Dennett',
@@ -33,7 +33,7 @@ let ownerListArray = [
         monthSold: null,
         yearSold: 1832,
         source: 'Dennett Family Lineage',
-        bio: null
+        bio: 'Ephraim Dennett was born 28 December 1785 in Portsmouth. He married Abigail Paul on 16 August 1809. Ephraim died in 1837.',
     },
     {
         owner: 'George W Dennett',
@@ -42,7 +42,7 @@ let ownerListArray = [
         monthSold: "June",
         yearSold: 1866,
         source: 'Dennett Family Lineage',
-        bio: null
+        bio: 'George was born 15 August 1814. After selling the house in 1886, he died on 3 January 1879 in Wakefield, MA',
     },
     {
         owner: 'George and Ellen Clark',
@@ -60,7 +60,7 @@ let ownerListArray = [
         monthSold: "September",
         yearSold: 1913,
         source: 'Rockingham County Deeds',
-        bio: null
+        bio: "In 1910, Mary Nutter, age 74, lived here with her 48 year old single son, Clarence, who was employed as a janitor.",
     },
     {
         owner: 'Ida Seymour',
@@ -69,7 +69,7 @@ let ownerListArray = [
         monthSold: "July",
         yearSold: 1919,
         source: 'Rockingham County Deeds',
-        bio: null
+        bio: "After her husband, William Seymour, a policeman in Portsmouth, died in 1912, Ida Seymour moved a few houses down the street to this house. In 1919, she sold the house and moved across town with her relatives.",
     },
     {
         owner: 'Plummer B. Smith',
@@ -78,7 +78,7 @@ let ownerListArray = [
         monthSold: "June",
         yearSold: 1941,
         source: 'Rockingham County Deeds',
-        bio: "In 1905, Plummer Smith was a painter at the Navy Yard."
+        bio: "In 1905, Plummer Smith was a painter at the Navy Yard. According to the 1930 census, Plummer B Smith, age 72, lived here with his wife Izetta, age 71. He was working od jobs including as a painter. Plummer died 24 February 1934 of cancer."
     },
     {
         owner: 'Ruth Chase',
@@ -141,7 +141,7 @@ let ownerListArray = [
         monthSold: "December",
         yearSold: 1985,
         source: 'Rockingham County Deeds',
-        bio: null
+        bio: "PORTSMOUTH, N. H., March 23, 1974 — Miss Joan Margaret Slavin, daughter of Mr. and Mrs. Robert M. Slavin of Osterville, Mass., and John Winslow Rice were married here this afternoon in St. Johnes Episcopal Church by the Rev. W. Charles Hodgins, assisted by the Rev. Bruce L. Benshoff. The bridegroom, a teacher at the Berwick (Me.) Academy, is a son of Mrs. Stiles M. DeCker of Kittery Point, Me., and John H. Rice of Portsmouth.",
     },
     {
         owner: 'Scott and MaryBeth and Stanley McDonald',
@@ -168,7 +168,7 @@ let ownerListArray = [
         monthSold: "March",
         yearSold: 2017,
         source: 'Rockingham County Deeds',
-        bio: null
+        bio: "Dec 10, 2014 Fosters: The owners of two city homes are appealing cease-and-desist notices they received saying they are barred from renting their properties on a short-term basis through online sites including airbnb.com. Robert and Eileen Mackin say they started renting their circa 1730 house at 56 Dennett St. last summer, that they were issued a license by the state to collect the nine percent rooms and meals taxes for that purpose and that their property insurer has covered them for rentals of up to 60 days a year.  “In other words, we have made every effort to be honest and fair in renting our property,” the couple wrote in their appeal.",
     },
     {
         owner: 'Walter and Mary Ellen Hoerman',
@@ -192,9 +192,11 @@ function listOwners() {
         console.log(ownerListArray[i].owner)
         document.getElementById("56Owners").innerHTML +=
         '<div class="card border-secondary text-center"> \
-        <h6 class="text-center font-italic m-1"></h6> \
         <h6 class="text-center font-italic m-1"> From ' + (ownerListArray[i].yearBought) + ' to ' + (ownerListArray[i].yearSold) + '</h6> \
+        <h6 class="text-center font-italic m-1">~~~</h6> \
         <h4 class="text-center m-1">' + (ownerListArray[i].owner) + '</h4> \
+        <h6 class="text-center font-italic m-1">~~~</h6> \
+        <h6 class="text-center font-italic m-1">' + (ownerListArray[i].bio) + '</h6> \
         <h6 class="text-center font-italic m-1"></h6> \
         </div>'
         ;
