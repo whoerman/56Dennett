@@ -1780,20 +1780,44 @@ let restaurantData = [{
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Geno's+Chowder+%26+Sandwich+Shop,+Mechanic+Street,+Portsmouth,+NH/@43.0770695,-70.7676275,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf12e0604ad5:0xf09d494047955fac!2m2!1d-70.7495329!2d43.0742353!3e2",
     }
 }, {
-    name: '',
-    location: "",
+    name: "",
+    location: {
+        google: "",
+        latitude: "",
+        longitude: "",
+    },
     logo: '',
     summary: "",
     pages: {
         website: '',
         facebook: '',
         yelp: "",
-        tripadvisor: "",
+        tripadvisor: '',
     },
     dennett: {
-        mode: '',
+        mode: 'Walkable',
         distance: '',
         directions: "",
+    }
+}, {
+    name: "",
+    location: {
+        google: "",
+        latitude: "",
+        longitude: "",
     },
-}, ];
+    logo: '',
+    summary: "",
+    pages: {
+        website: '',
+        facebook: '',
+        yelp: "",
+        tripadvisor: '',
+    },
+    dennett: {
+        mode: 'Walkable',
+        distance: '',
+        directions: "",
+    }
+},  ];
 
