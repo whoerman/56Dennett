@@ -8,7 +8,7 @@
     <a class="nav-link" href="./index.html">Home</a> \
   </li> \
   <li class="nav-item"> \
-    <a class="nav-link" href="./directions.html">Directions</a> \
+    <a class="nav-link" href="./directions.html">Where</a> \
   </li> \
   <li class="nav-item"> \
     <a class="nav-link" href="./contact.html">Contact</a> \
