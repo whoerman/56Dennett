@@ -80,46 +80,6 @@ let restaurantData = [{
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/BRGR+Bar,+Portwalk+Place,+Portsmouth,+NH/@43.0789114,-70.76683,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0bc9ecb8db:0x5e70b41df507e3a2!2m2!1d-70.7611022!2d43.078236!3e2",
     }
 }, {
-    name: 'Statey Bar & Grill',
-    location: {
-        google: "https://www.google.com/maps/place/Statey+Bar+%26+Grill/@43.0772534,-70.7645269,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bfeea6f2dc1b:0x5f26444ca97a19c9!8m2!3d43.0772534!4d-70.7623329?hl=en&authuser=0",
-        latitude: "43.0772534",
-        longitude: "-70.7645269",
-    },
-    logo: 'stateylogo.jpg',
-    summary: "Seafood & pub food in a sport bar atmosphere",
-    pages: {
-        website: 'https://www.thestateybar.com/',
-        facebook: 'https://www.facebook.com/thestatestreetsaloon',
-        yelp: "https://www.yelp.com/biz/the-statey-bar-and-grill-portsmouth",
-        tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d14174003-Reviews-Statey_Bar_Grill-Portsmouth_New_Hampshire.html",
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.4',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Statey+Bar+%26+Grill,+238+Deer+St,+Portsmouth,+NH+03801/@43.0786129,-70.7672445,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfeea6f2dc1b:0x5f26444ca97a19c9!2m2!1d-70.7623329!2d43.0772534!3e2?hl=en&authuser=0",
-    },
-}, {
-    name: 'Dos Amigos',
-    location: {
-        google: 'https://www.google.com/maps/place/Dos+Amigos+Burritos+-+Portsmouth/@43.0776429,-70.763008,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0dc6a60ff7:0x499dbd49926298aa!8m2!3d43.0776429!4d-70.760814?hl=en&authuser=0',
-        latitude: "43.0776429",
-        longitude: "-70.763008",
-    },
-    logo: 'dosamigoslogo.jpg',
-    summary: "Counter-serve spot for Mexican eats",
-    pages: {
-        website: 'https://www.dosamigosburritos.com/',
-        facebook: 'https://www.facebook.com/DosAmigosBurritos',
-        yelp: "https://www.yelp.com/biz/dos-amigos-burritos-portsmouth",
-        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d835641-Reviews-Dos_Amigos_Burritos-Portsmouth_New_Hampshire.html',
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.5',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Dos+Amigos+Burritos+-+Portsmouth,+Portwalk+Place,+Portsmouth,+NH/@43.0788076,-70.7666399,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0dc6a60ff7:0x499dbd49926298aa!2m2!1d-70.760814!2d43.0776429!3e2",
-    }
-}, {
     name: 'Shalimar India',
     location: {
         google: 'https://www.google.com/maps/place/Shalimar+India/@43.077225,-70.762222,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0ba2ca2493:0x591f384e80606f50!8m2!3d43.077225!4d-70.760028?hl=en&authuser=0',
@@ -138,26 +98,6 @@ let restaurantData = [{
         mode: 'Walkable',
         distance: '0.5',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Shalimar+India,+Hanover+Street,+Portsmouth,+NH/@43.0785986,-70.768487,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0ba2ca2493:0x591f384e80606f50!2m2!1d-70.760028!2d43.077225!3e2",
-    }
-}, {
-    name: 'Earth Eagle',
-    location: {
-        google: 'https://www.google.com/maps/place/Earth+Eagle+Brewings/@43.0792766,-70.761905,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0bfa9db5f3:0x83625780fde7c6d1!8m2!3d43.0792766!4d-70.759711?hl=en&authuser=0',
-        latitude: "43.0792766",
-        longitude: "-70.761905",
-    },
-    logo: 'eartheaglelogo.jpg',
-    summary: "Upbeat nook for craft brews and pub eats",
-    pages: {
-        website: 'https://www.eartheaglebrewings.com/',
-        facebook: 'https://www.facebook.com/eartheaglebrewings',
-        yelp: "https://www.yelp.com/biz/earth-eagle-brewings-portsmouth",
-        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d6596756-Reviews-Earth_Eagle_Brewings-Portsmouth_New_Hampshire.html',
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.5',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Earth+Eagle+Brewings,+High+Street,+Portsmouth,+NH/@43.0789419,-70.7683285,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0bfa9db5f3:0x83625780fde7c6d1!2m2!1d-70.759711!2d43.0792766!3e2",
     }
 }, {
     name: 'Row 34',
@@ -298,26 +238,6 @@ let restaurantData = [{
         mode: 'Walkable',
         distance: '0.5',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Green+Room,+41+Vaughan+Mall,+Portsmouth,+NH+03801/@43.0783587,-70.7683386,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfb05ff15487:0x4676b6c233b99f12!2m2!1d-70.7597312!2d43.0768005!3e2?hl=en&authuser=0",
-    },
-}, {
-    name: 'Mr, Wish',
-    location: {
-        google: "https://www.google.com/maps/place/Mr.+Wish/@43.0768166,-70.7618157,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0edb8c3b7f:0xf329c921ec42567b!8m2!3d43.0768166!4d-70.7596217?hl=en&authuser=0",
-        latitude: "43.0768166",
-        longitude: "-70.7618157",
-    },
-    logo: 'mrwishlogo.jpg',
-    summary: "Boba (bubble teas), all natural fruit teas and smoothies",
-    pages: {
-        website: 'https://www.mrwishusa.com/',
-        facebook: 'https://www.facebook.com/MrWishPortsmouth',
-        yelp: "https://www.yelp.com/biz/mr-wish-portsmouth",
-        tripadvisor: "",
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.5',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Mr.+Wish,+37+Vaughan+Mall,+Portsmouth,+NH+03801/@43.0783487,-70.7682838,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0edb8c3b7f:0xf329c921ec42567b!2m2!1d-70.7596217!2d43.0768166!3e2?hl=en&authuser=0",
     },
 }, {
     name: "Jumpin' Jay's",
@@ -720,26 +640,6 @@ let restaurantData = [{
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Moxy,+Penhallow+Street,+Portsmouth,+NH/@43.0778605,-70.7666615,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c3d6c9e29:0x9dc48c605f8921c7!2m2!1d-70.7568305!2d43.0777893!3e2",
     }
 }, {
-    name: "Rudi's Portsmouth",
-    location: {
-        google: "https://www.google.com/maps/place/Rudi's+Portsmouth/@43.077185,-70.760557,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c772fe23d:0xaa584aa1a3afe834!8m2!3d43.077185!4d-70.758363?hl=en&authuser=0",
-        latitude: "43.077185",
-        longitude: "-70.760557",
-    },
-    logo: 'rudilogo.jpg',
-    summary: "New American cuisine & live jazz",
-    pages: {
-        website: 'https://www.rudisportsmouth.com/',
-        facebook: 'https://www.facebook.com/rudisportsmouth',
-        yelp: "https://www.yelp.com/biz/rudis-portsmouth-portsmouth",
-        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d675129-Reviews-Rudi_s_Portsmouth-Portsmouth_New_Hampshire.html',
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.7',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Rudi's+Portsmouth,+High+Street,+Portsmouth,+NH/@43.0778605,-70.7675031,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c772fe23d:0xaa584aa1a3afe834!2m2!1d-70.758363!2d43.077185!3e2",
-    }
-}, {
     name: 'Old Ferry Landing',
     location: {
         google: 'https://www.google.com/maps/place/Old+Ferry+Landing/@43.07877,-70.7592189,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0ea0a13d3d:0x748bb6b735b74f52!8m2!3d43.07877!4d-70.7570249?hl=en&authuser=0',
@@ -900,26 +800,6 @@ let restaurantData = [{
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/The+Kitchen,+Islington+Street,+Portsmouth,+NH/@43.0771383,-70.7688886,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf755a4ae42d:0x2fb7c3268575de3b!2m2!1d-70.7640122!2d43.0743491!3e2?hl=en&authuser=0",
     }
 }, {
-    name: 'Pocos Bow Street Cantina',
-    location: {
-        google: "https://www.google.com/maps/place/Poco's+Bow+Street+Cantina/@43.078656,-70.759197,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0e9fea7d4b:0x3756c1a4e8495088!8m2!3d43.078656!4d-70.757003?hl=en&authuser=0",
-        latitude: "43.078656",
-        longitude: "-70.759197",
-    },
-    logo: 'pocologo.jpg',
-    summary: "Cozy Mexican spot with a riverside deck",
-    pages: {
-        website: 'http://www.pocosbowstreetcantina.com/',
-        facebook: 'https://www.facebook.com/pocosnh',
-        yelp: "https://www.yelp.com/biz/pocos-bow-street-cantina-portsmouth-2",
-        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d412925-Reviews-Poco_s_Bow_Street_Cantina-Portsmouth_New_Hampshire.html',
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.7',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Poco's+Bow+Street+Cantina,+Bow+Street,+Portsmouth,+NH/@43.0786386,-70.7669199,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0e9fea7d4b:0x3756c1a4e8495088!2m2!1d-70.757003!2d43.078656!3e2?hl=en&authuser=0",
-    }
-}, {
     name: 'Pink Bamboo',
     location: {
         google: 'https://www.google.com/maps/place/Pink+Bamboo+Hot+Pot+Cafe/@43.0781143,-70.7593064,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c22707529:0x1d9bc313e2169ba5!8m2!3d43.0781143!4d-70.7571124?hl=en&authuser=0',
@@ -1018,26 +898,6 @@ let restaurantData = [{
         mode: 'Walkable',
         distance: '0.7',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Cup+of+Joe,+31+Market+St,+Portsmouth,+NH+03801/@43.0778605,-70.7671237,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c1408325d:0x9e75127fd100c165!2m2!1d-70.7573015!2d43.0776031!3e2?hl=en&authuser=0",
-    },
-}, {
-    name: 'The Striker',
-    location: {
-        google: "https://www.google.com/maps/place/Dolphin+Striker/@43.0784088,-70.7595356,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c1e61db1d:0x73d1345984d212d!8m2!3d43.0784088!4d-70.7573416?hl=en&authuser=0",
-        latitude: "43.0784088",
-        longitude: "-70.7595356",
-    },
-    logo: 'strikerlogo.jpg',
-    summary: "Seafood-centric fare & historic feel",
-    pages: {
-        website: 'https://dolphinstriker.com/',
-        facebook: 'https://www.facebook.com/thedolphinstriker',
-        yelp: "https://www.yelp.com/biz/the-striker-portsmouth",
-        tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d4476278-Reviews-Dolphine_Striker-Portsmouth_New_Hampshire.html",
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.7',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Dolphin+Striker,+15+Bow+St,+Portsmouth,+NH+03801/@43.0778605,-70.7670889,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c1e61db1d:0x73d1345984d212d!2m2!1d-70.7573416!2d43.0784088!3e2?hl=en&authuser=0",
     },
 }, {
     name: "Moe's Italian Sandwiches",
@@ -1180,26 +1040,6 @@ let restaurantData = [{
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Lexie's+Joint,+Islington+Street,+Portsmouth,+NH/@43.076848,-70.7688886,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9fe01264e3:0x5627b4dc5201421a!2m2!1d-70.7646676!2d43.0737238!3e2",
     }
 }, {
-    name: "Colby's",
-    location: {
-        google: "https://www.google.com/maps/place/Colby's+Breakfast+%26+Lunch/@43.0774445,-70.7577328,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c32dad8f5:0x6db50774e37741f5!8m2!3d43.0774445!4d-70.7555388?hl=en&authuser=0",
-        latitude: "43.0774445",
-        longitude: "-70.7577328",
-    },
-    logo: 'colbyslogo.jpg',
-    summary: "Bustling daytime nook for American chow",
-    pages: {
-        website: 'https://colbysportsmouthnh.com/',
-        facebook: 'https://www.facebook.com/Colbys-Breakfast-Lunch-121804041210665',
-        yelp: "https://www.yelp.com/biz/colbys-breakfast-and-lunch-portsmouth",
-        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d616592-Reviews-Colby_s_Breakfast_Lunch-Portsmouth_New_Hampshire.html',
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.8',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Colby's+Breakfast+%26+Lunch,+Daniel+Street,+Portsmouth,+NH/@43.0781107,-70.7662424,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c32dad8f5:0x6db50774e37741f5!2m2!1d-70.7555388!2d43.0774445!3e2",
-    }
-}, {
     name: 'Book and Bar',
     location: {
         google: 'https://www.google.com/maps/place/Portsmouth+Book+%26+Bar/@43.0759966,-70.7595171,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c8a5bcf17:0x13268c15a55e062!8m2!3d43.0759966!4d-70.7573231?hl=en&authuser=0',
@@ -1320,26 +1160,6 @@ let restaurantData = [{
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Kaffee+Vonsolln,+79+Daniel+St,+Portsmouth,+NH+03801/@43.0778605,-70.7664438,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0dcd4cf84b:0xe712fbf47129d08a!2m2!1d-70.7559417!2d43.07735!3e2?hl=en&authuser=0",
     },
 }, {
-    name: "Ceo's Gelato Bistro",
-    location: {
-        google: "https://www.google.com/maps/place/Ceo's+Gelato+Bistro/@43.0762146,-70.7592606,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c601443bd:0xce08ba72698f6a77!8m2!3d43.0762146!4d-70.7570666?hl=en&authuser=0",
-        latitude: "43.0762146",
-        longitude: "-70.7592606",
-    },
-    logo: 'ceologo.jpg',
-    summary: "Counter for many gelato flavors",
-    pages: {
-        website: 'https://ceos-gelato-bistro.square.site/',
-        facebook: 'https://www.facebook.com/ceosgelato',
-        yelp: "https://www.yelp.com/biz/ceos-gelato-bistro-portsmouth",
-        tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d10636934-Reviews-Ceo_s_Gelato_Bistro-Portsmouth_New_Hampshire.html",
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.8',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Ceo's+Gelato+Bistro,+43+Pleasant+St,+Portsmouth,+NH+03801/@43.0776389,-70.7670063,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0c601443bd:0xce08ba72698f6a77!2m2!1d-70.7570666!2d43.0762146!3e2?hl=en&authuser=0",
-    },
-}, {
     name: 'Cure',
     location: {
         google: 'https://www.google.com/maps/place/Cure/@43.076507,-70.758262,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c8ad4500b:0xdcb9e05c8b2781af!8m2!3d43.076507!4d-70.756068?hl=en&authuser=0',
@@ -1420,26 +1240,6 @@ let restaurantData = [{
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Domo+Japanese+Restaurant,+State+Street,+Portsmouth,+NH/@43.0774206,-70.7656595,16z/data=!3m2!4b1!5s0x89e2bf9b9ce6beaf:0x290ab22deaff8c29!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0dc6e22189:0x32161f7e829be9b9!2m2!1d-70.754373!2d43.0769735!3e2?hl=en&authuser=0",
     }
 }, {
-    name: "Mr Kim's",
-    location: {
-        google: "https://www.google.com/maps/place/Mr+Kim's/@43.0770801,-70.7569379,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf30349ef54b:0x9d5896499169afd7!8m2!3d43.0770801!4d-70.7547439?hl=en&authuser=0",
-        latitude: "43.0770801",
-        longitude: "-70.7569379",
-    },
-    logo: 'mrkimslogo.jpg',
-    summary: "Korean homestyle cooking in a cozy space",
-    pages: {
-        website: 'https://www.mrkimsrestaurant.com/',
-        facebook: 'https://www.facebook.com/mrkimsrestaurant',
-        yelp: "https://www.yelp.com/biz/mr-kims-portsmouth",
-        tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d17691752-Reviews-Mr_Kim_s-Portsmouth_New_Hampshire.html",
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.9',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Mr+Kim's,+107+State+Street,+Portsmouth,+NH+03801/@43.0774206,-70.7657736,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf30349ef54b:0x9d5896499169afd7!2m2!1d-70.7547439!2d43.0770801!3e2?hl=en&authuser=0",
-    },
-}, {
     name: 'Wrap Shack',
     location: {
         google: "https://www.google.com/maps/place/Wrap+Shack/@43.0730745,-70.769196,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bfd3673272cd:0x81c4ca7ccce698e2!8m2!3d43.0730745!4d-70.767002?hl=en&authuser=0",
@@ -1459,47 +1259,7 @@ let restaurantData = [{
         distance: '0.9',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Wrap+Shack,+361+Islington+St,+Portsmouth,+NH+03801/@43.0727256,-70.7649809,16z/data=!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfd3673272cd:0x81c4ca7ccce698e2!2m2!1d-70.767002!2d43.0730745!3e2?hl=en&authuser=0",
     },
-}, {
-    name: "Darleen's Subs",
-    location: {
-        google: "https://www.google.com/maps/place/Darleen's+Sub+%26+Pizza,+(Nikki's+Banh+Mi+Shop)/@43.0701564,-70.7740763,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9bbd7eec73:0x632c99df1a451562!8m2!3d43.0701564!4d-70.7718823?hl=en&authuser=0",
-        latitude: "43.0701564",
-        longitude: "-70.7740763",
-    },
-    logo: 'darleenlogo.jpg',
-    summary: "Basic sandwich shop with pizza & banh mi",
-    pages: {
-        website: 'https://nikkisbanhmi.com/?fbclid=IwAR3j-ohBWhdVJWEuB3vnQOe0QY3n7HLV4eN_ekLJo2C2hapd-Oc0dXpXJds',
-        facebook: 'https://www.facebook.com/NikkisBanhMi',
-        yelp: "https://www.yelp.com/biz/darleens-sub-and-pizza-nikki-s-banh-mi-shop-portsmouth-2",
-        tripadvisor: "https://www.tripadvisor.com/Restaurant_Review-g46209-d413087-Reviews-Nikki_s_Bahn_Mi-Portsmouth_New_Hampshire.html",
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.9',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Darleen's+Sub+%26+Pizza,+(Nikki's+Banh+Mi+Shop),+697+Islington+St,+Portsmouth,+NH+03801/@43.0750411,-70.7779678,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf9bbd7eec73:0x632c99df1a451562!2m2!1d-70.7718823!2d43.0701564!3e2?hl=en&authuser=0",
-    },
-}, {
-    name: 'Red Rover Creamery',
-    location: {
-        google: "https://www.google.com/maps/place/Red+Rover+Creamery/@43.0765865,-70.7574418,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf28029d8d4d:0x5a5e8cce53617ae8!8m2!3d43.0765865!4d-70.7552478?hl=en&authuser=0",
-        latitude: "43.0765865",
-        longitude: "-70.7574418",
-    },
-    logo: 'redroverlogo.jpg',
-    summary: "Offering seasonal, American style ice cream & sherbet",
-    pages: {
-        website: 'https://www.redrovercreamery.com/',
-        facebook: 'https://www.facebook.com/RedRoverCreamery',
-        yelp: "https://www.yelp.com/biz/red-rover-creamery-portsmouth-2",
-        tripadvisor: "",
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '0.9',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Red+Rover+Creamery,+150+State+Street,+Portsmouth,+NH+03801/@43.0774206,-70.7660969,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf28029d8d4d:0x5a5e8cce53617ae8!2m2!1d-70.7552478!2d43.0765865!3e2?hl=en&authuser=0",
-    },
-}, {
+},  {
     name: 'STREET',
     location: {
         google: 'https://www.google.com/maps/place/STREET+eat%2Fdrink+360/@43.069034,-70.7754298,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b1bc0b6f7:0x499f50d15ba39a85!8m2!3d43.069034!4d-70.7732358?hl=en&authuser=0',
