@@ -1,6 +1,6 @@
 
-    let navheader = '<nav class="navbar navbar-light bg-light"> \
-<a href="https://www.56dennett.com"><span class="navbar-brand mb-0 h1"><i class="fas fa-home"></i> 56 Dennett <em>(Portsmouth, NH)</em> \
+    let navheader = '<nav class="navbar navbar-light text-center bg-light"> \
+<a href="https://www.56dennett.com"><span class="navbar-brand text-center mb-0 h1"><i class="fas fa-home"></i> 56 Dennett <em>(Portsmouth, NH)</em> \
     <Dlg></Dlg> \
   </span></a> \
 <ul class="nav text-center"> \
