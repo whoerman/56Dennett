@@ -1240,26 +1240,26 @@ let restaurantData = [{
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Domo+Japanese+Restaurant,+State+Street,+Portsmouth,+NH/@43.0774206,-70.7656595,16z/data=!3m2!4b1!5s0x89e2bf9b9ce6beaf:0x290ab22deaff8c29!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0dc6e22189:0x32161f7e829be9b9!2m2!1d-70.754373!2d43.0769735!3e2?hl=en&authuser=0",
     }
 }, {
-    name: 'Wrap Shack',
+    name: "Sol",
     location: {
-        google: "https://www.google.com/maps/place/Wrap+Shack/@43.0730745,-70.769196,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bfd3673272cd:0x81c4ca7ccce698e2!8m2!3d43.0730745!4d-70.767002?hl=en&authuser=0",
-        latitude: "43.0730745",
-        longitude: "-70.769196",
+        google: "https://goo.gl/maps/YSfrHCAdmRcAqLrY7",
+        latitude: "43.07716941204803",
+        longitude: "-70.75489401030883",
     },
-    logo: 'wrapshacklogo.jpg',
-    summary: "Food truck with deliscious wraps",
+    logo: 'sollogo.JPG',
+    summary: "Southern cuisine from the French Quarter",
     pages: {
-        website: 'https://www.wrapshackportsmouth.com/?fbclid=IwAR3L0MNOmUNrmAEEa4AT57kpfG0_lqsF4ubTc0lqsEELsK9dTLfOPfjeSeA',
-        facebook: 'https://www.facebook.com/wrapshackportsmouth',
-        yelp: "",
-        tripadvisor: "",
+        website: 'https://www.portsmouthsol.com/',
+        facebook: 'https://m.facebook.com/SolPortsmouth/',
+        yelp: "https://www.yelp.com/biz/sol-southern-kitchen-and-lounge-portsmouth",
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d24892782-Reviews-Sol_Southern_Kitchen_And_Lounge-Portsmouth_New_Hampshire.html',
     },
     dennett: {
         mode: 'Walkable',
         distance: '0.9',
-        directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Wrap+Shack,+361+Islington+St,+Portsmouth,+NH+03801/@43.0727256,-70.7649809,16z/data=!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bfd3673272cd:0x81c4ca7ccce698e2!2m2!1d-70.767002!2d43.0730745!3e2?hl=en&authuser=0",
-    },
-},  {
+        directions: "https://goo.gl/maps/U3pxz9ojEU6xz7hP9",
+    }
+}, {
     name: 'STREET',
     location: {
         google: 'https://www.google.com/maps/place/STREET+eat%2Fdrink+360/@43.069034,-70.7754298,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf9b1bc0b6f7:0x499f50d15ba39a85!8m2!3d43.069034!4d-70.7732358?hl=en&authuser=0',
@@ -1539,27 +1539,7 @@ let restaurantData = [{
         distance: '1.3',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Geno's+Chowder+%26+Sandwich+Shop,+Mechanic+Street,+Portsmouth,+NH/@43.0770695,-70.7676275,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf12e0604ad5:0xf09d494047955fac!2m2!1d-70.7495329!2d43.0742353!3e2",
     }
-}, {
-    name: "",
-    location: {
-        google: "",
-        latitude: "",
-        longitude: "",
-    },
-    logo: '',
-    summary: "",
-    pages: {
-        website: '',
-        facebook: '',
-        yelp: "",
-        tripadvisor: '',
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '',
-        directions: "",
-    }
-}, {
+},{
     name: "",
     location: {
         google: "",
