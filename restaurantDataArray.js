@@ -1160,6 +1160,26 @@ let restaurantData = [{
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Kaffee+Vonsolln,+79+Daniel+St,+Portsmouth,+NH+03801/@43.0778605,-70.7664438,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf0dcd4cf84b:0xe712fbf47129d08a!2m2!1d-70.7559417!2d43.07735!3e2?hl=en&authuser=0",
     },
 }, {
+    name: "Toscana",
+    location: {
+        google: "https://g.page/ToscanaChophouse?share",
+        latitude: "43.076762522869075",
+        longitude: "-70.7571493491122",
+    },
+    logo: 'toscanalogo.JPG',
+    summary: "Italian Chophouse & Wine Bar",
+    pages: {
+        website: 'https://www.toscanachophouse.com/',
+        facebook: '',
+        yelp: "https://www.yelp.com/biz/toscana-italian-chophouse-and-wine-bar-portsmouth",
+        tripadvisor: 'https://www.tripadvisor.com/Restaurant_Review-g46209-d23367960-Reviews-Toscana_Italian_Chophouse_Wine_Bar-Portsmouth_New_Hampshire.html',
+    },
+    dennett: {
+        mode: 'Walkable',
+        distance: '0.8',
+        directions: "https://goo.gl/maps/W5AyB5XPnWHgfScg9",
+    }
+}, {
     name: 'Cure',
     location: {
         google: 'https://www.google.com/maps/place/Cure/@43.076507,-70.758262,17z/data=!3m1!4b1!4m5!3m4!1s0x89e2bf0c8ad4500b:0xdcb9e05c8b2781af!8m2!3d43.076507!4d-70.756068?hl=en&authuser=0',
@@ -1538,26 +1558,6 @@ let restaurantData = [{
         mode: 'Walkable',
         distance: '1.3',
         directions: "https://www.google.com/maps/dir/56+Dennett+St,+Portsmouth,+NH+03801,+USA/Geno's+Chowder+%26+Sandwich+Shop,+Mechanic+Street,+Portsmouth,+NH/@43.0770695,-70.7676275,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x89e2bfa123522ebf:0x9d1eb0015bd0fbb0!2m2!1d-70.7681287!2d43.0795147!1m5!1m1!1s0x89e2bf12e0604ad5:0xf09d494047955fac!2m2!1d-70.7495329!2d43.0742353!3e2",
-    }
-},{
-    name: "",
-    location: {
-        google: "",
-        latitude: "",
-        longitude: "",
-    },
-    logo: '',
-    summary: "",
-    pages: {
-        website: '',
-        facebook: '',
-        yelp: "",
-        tripadvisor: '',
-    },
-    dennett: {
-        mode: 'Walkable',
-        distance: '',
-        directions: "",
     }
 },  ];
 
